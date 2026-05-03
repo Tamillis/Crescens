@@ -1,0 +1,81 @@
+:root {
+  --text: #332d3a;
+  --bg: #fff;
+  --shadow: rgba(0,0,0,0.25);
+  --border: #e5e4e7;
+
+  --accent: #aa3bff;
+  --accent-border: rgba(170, 59, 255, 0.5);
+
+  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --mono: ui-monospace, Consolas, monospace;
+
+  font: 18px/145% var(--sans);
+
+  color: var(--text);
+  background: var(--bg);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: center;
+  background-color: var(--shadow);
+}
+
+blockquote {
+  background-color: var(--shadow);
+  padding: 4px 0.5em;
+}
+
+blockquote p {
+  margin: 0;
+}
+
+li {
+  margin-left: 1em;
+}
+
+nav li {
+  padding: 4px 8px;
+  margin-left: 0;
+  text-transform: capitalize;
+  cursor: pointer;
+  border-right: solid 1px var(--text);
+}
+
+
+nav li:last-child {
+  border-right: none;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+h1, h2, h3, h4, p {
+  margin: 0.5em 0;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0.5em 0;
+}
+
+td, th {
+  border: 1px solid var(--text);
+  padding: 2px 4px;
+}

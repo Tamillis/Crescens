@@ -1,0 +1,281 @@
+# Module: Swordplay
+
+A module for grounded martial combat. Compatible with any Crescens setting where personal weapons and armour are the primary tools of violence: historical, fantasy, or otherwise.
+
+This module replaces the core Fighting Skills with a granular set of Combat Skills, and introduces historical armour categories, weapons with meaningful mechanical variance, a Combat Manoeuvre system, and an expanded Powers list.
+
+Optional rules and Powers are marked throughout. Tables using this module should decide upfront how much fantastical martial ability exists in their setting.
+
+---
+
+## Combat Skills
+
+The following skills replace **Weaponry**, **Martial Arts** and **Shooting** from the core rules.
+
+**Archery** - bows, crossbows, and other drawn or cranked ranged weapons. Pairs with Agility (speed, instinct) or Perception (patience, aim).
+
+**Blocking** - use of shields and defensive equipment. The primary skill for the Defend Action in martial contexts. Pairs with Strength (absorb) or Agility (redirect).
+
+**Bludgeoning** - blunt weapons: clubs, maces, hammers, staves. Pairs with Strength (power) or Agility (strikes to vulnerable points).
+
+**Duelling** - precise, style-driven fighting with light weapons: short swords, rapiers, smallswords, and similar. Technique and read of the opponent over raw force. Pairs with Agility (speed, footwork) or Intelligence (anticipation, reading intent).
+
+**Firearms** - black powder and early firearms. Pairs with Perception (aim) or Agility (snap shooting).
+
+**Great Weapon Fighting** - two-handed weapons: greatswords, poleaxes, mauls, halberds. Pairs with Strength (cleaving power) or Agility (reach control).
+
+**Knife Fighting** - daggers and knives as primary close-quarters weapons. Concealed, brutal, and effective in tight spaces. Pairs with Agility (speed, concealment) or Intelligence (anatomically effective strikes).
+
+**Spear Fighting** - spears, lances, and long-hafted thrusting weapons. Pairs with Agility (precision) or Strength (drive).
+
+**Throwing** - thrown weapons: axes, javelins, darts, stones. Pairs with Strength (distance, impact) or Agility (accuracy).
+
+**Unarmed Combat** - strikes, grapples, and wrestling as intentional fighting style rather than desperation. Pairs with Strength (force) or Agility (technique).
+
+---
+
+## Armour
+
+Armour reduces incoming damage as per the core rules.
+
+All armour has a **Protection value** (the damage reduction) and an **Encumbrance value** (stepping the wearer's Agility die down the chain by the listed amount). Encumbrance therefore automatically affects Evasion and any Agility-based roll.
+
+| Armour | Protection | Encumbrance |
+|---|---|---|
+| Padded / Gambeson | 1 | - |
+| Leather / Brigandine | 2 | - |
+| Mail | 3 | 1 step |
+| Partial Plate | 4 | 1 step |
+| Full Plate | 5 | 2 steps |
+
+A character whose Agility is stepped down to d2 are not immobile, merely very slow.
+
+Shields add +1 Protection and require one hand. A character with Blocking may use the Defend Action with a shield. Without Blocking the Protection bonus applies passively, but the Defend Action is unavailable.
+
+---
+
+## Weapons
+
+Weapons have a **Damage** value - rolled on a successful hit to determine Injury rank - and **Tags** for relevant special properties.
+
+A weapon's Damage replaces the default damage roll from the core rules when this module is in use.
+
+| Weapon | Skill | Damage | Tags |
+|---|---|---|---|
+| Unarmed | Unarmed Combat | d2 | Close |
+| Dagger / Knife | Knife Fighting | d4+1 | Concealable, Close, Thrown, Bleeds |
+| Club / Cudgel | Bludgeoning | d6 | Improvised, Stuns |
+| Staff | Bludgeoning | d6+1 | Reach, Two-Handed, Stuns |
+| Hand Axe | Bludgeoning | d6 | Thrown, Bleeds |
+| Short Sword | Duelling | d6+1 | Close, Bleeds |
+| Spear | Spear Fighting | d6+2 | Reach, Bleeds |
+| Sword | Duelling | d8 | Bleeds |
+| Mace / Warhammer | Bludgeoning | d8+1 | Stuns, Sunders |
+| Shortbow | Archery | d6 | Ranged, Two-Handed, Close |
+| Longbow | Archery | d8+1 | Ranged, Two-Handed, Bleeds |
+| Crossbow | Archery | d10 | Ranged, Two-Handed, Slow, Armour Piercing 1 |
+| Dart | Throwing | d4-1 | Ranged, Concealable |
+| Javelin | Throwing | d6+1 | Ranged, Bleeds |
+| Longsword | Duelling | d10 | Two-Handed, Versatile, Bleeds |
+| Greatsword | Great Weapon Fighting | d8+2 | Two-Handed, Reach, Bleeds |
+| Poleaxe / Halberd | Great Weapon Fighting | d12 | Two-Handed, Reach, Bleeds, Stuns, Sunders |
+| Pistol | Firearms | d8+1 | Ranged, Loud, Slow, Armour Piercing 1, Close, Concealable |
+| Musket | Firearms | d10+2 | Ranged, Two-Handed, Loud, Slow, Armour Piercing 2 |
+
+### Weapon Tags
+
+**Armour Piercing N** - ignores N points of the target's Protection when calculating damage.
+
+**Bleeds** - as a Bonus Action when making an Attack Action with this weapon, the attacker may force the target to save. The target rolls their relevant Defence stat against the original attack roll as the TN. On a failure, the Injury generated by this attack gains the Fatal tag immediately.
+
+**Close** - effective at very close quarters where larger weapons are unwieldy. When fighting in confined spaces or Prone, weapons with Close do not suffer one Disadvantage step.
+
+**Concealable** - can be hidden on the body. A Search will not reveal it unless the searcher is specifically looking for weapons.
+
+**Improvised** - this weapon is also a mundane tool. No mechanical effect, but fictionally relevant for availability and social context.
+
+**Loud** - discharge is audible at significant distance. Relevant in stealth, pursuit, and social situations.
+
+**Ranged** - can attack targets beyond melee range. Range is adjudicated fictionally by the GM.
+
+**Reach** - can engage targets one step beyond normal melee range and keep opponents at distance. A Reach weapon against a non-Reach weapon in open space grants one Advantage step on the first exchange.
+
+**Slow** - requires an Action or Bonus Action to reload before it can be fired again.
+
+**Stuns** - as a Bonus Action when making an Attack Action with this weapon, the attacker may force the target to save. The target rolls their relevant Defence stat against the original attack roll as the TN. On a failure, the target loses their Action this round.
+
+**Sunders** - as a Bonus Action when making an Attack Action with this weapon, the attacker may force the target to save. The target rolls their relevant Defence stat against the original attack roll as the TN. On a failure, the target's Protection is reduced by 1 for the remainder of the fight. This can stack. Protection cannot be reduced below 0.
+
+**Thrown** - can attack targets at Close Range by throwing the weapon, where it must be recovered to be used again.
+
+**Two-Handed** - requires both hands. Cannot be combined with a shield.
+
+**Versatile** - can be used two-handed for the listed damage, or one-handed at one die step down the chain.
+
+---
+
+## Combat Manoeuvres
+
+Combat Manoeuvres are tactical options available to any character using this module. They represent the physical and mental demands of real fighting - footwork, timing, commitment, and endurance.
+
+### Energy
+
+**Energy** = Strength die average + Agility average.
+
+Energy refreshes Per Fight. A character who does not rest between consecutive fights carries their remaining Energy forward - it does not refresh until they do.
+
+### General Manoeuvres
+
+Any character may attempt these manoeuvres regardless of skill.
+
+**Brace** - *1–3 Energy*
+When an attack against you deals damage, spend up to 3 Energy. Each point spent reduces incoming damage by 1 to a minimum of zero.
+
+**Charge** - *1 Energy*
+Move directly toward a target in a straight line and attack in the same Action. If the attack hits, add 1 to the damage roll. You may not Charge if your path is obstructed. A target with a Reach weapon who is not themselves Charging may impose one Disadvantage on your attack.
+
+**Dash** - *1 Energy*
+Move at speed without committing to an attack. You may disengage from melee safely - no fictional consequences apply for disengaging. You may not Dash and Attack in the same round.
+
+**Feint** - *1 Energy*
+Declare before the attack roll. Your attack is deceptive rather than direct. The target suffers one Disadvantage step on their Defend Action this exchange.
+
+**Press** - *1 Energy*
+Force your opponent back, controlling space rather than dealing damage. On a successful attack roll, instead of rolling damage you may move the target one meaningful fictional step backward. The target may resist with a Strength roll against your attack roll as the TN.
+
+---
+
+## Swordplay Powers
+
+### Armour
+
+**Ironworn**
+Prerequisites: Strength d6
+Your body has learned to move inside armour as naturally as without. Reduce the Encumbrance die penalty of any armour you wear by 1 step. This Power may be taken twice - a character who takes it twice suffers no Encumbrance from any armour.
+
+**Shield Master**
+Prerequisites: Blocking 3
+You have trained the shield as an offensive and defensive tool in equal measure. Your shield's Protection bonus increases to +2. Additionally you may use the Shove action using Blocking as your skill.
+
+### Weapons
+
+**Weapon Master**
+Prerequisites: Any two Combat Skills at rank 2
+You have broad martial knowledge. Gain 3 ranks in any combination of Combat Skills. These ranks follow normal skill cap rules.
+
+**Weapon Specialisation**
+Prerequisites: Relevant Combat Skill rank 3
+Choose one Combat Skill. When using a weapon governed by that skill, add 1 to all damage rolls. Additionally choose one tag from Bleeds, Stuns, or Sunders - your attacks with that weapon type carry that tag. This Power may be taken multiple times, each time for a different Combat Skill.
+
+**Brutal Fighter**
+Prerequisites: Strength d8
+Your strikes are vicious regardless of weapon. Any weapon you wield gains the Bleeds tag if it does not already have it. If it already has Bleeds, it also gains Stuns.
+
+**Street Fighter**
+Prerequisites: Unarmed Combat 2
+Improvised weapons are genuinely dangerous in your hands. Improvised weapons deal d6+1 damage when you wield them and gain the Stuns tag. You suffer no Disadvantage when fighting with objects not designed as weapons.
+
+**Dual Wielder**
+Prerequisites: Agility d6, any Combat Skill rank 3
+You fight with a weapon in each hand. When you make an Attack Action with your primary weapon, you may make a second attack with your off-hand weapon as a Bonus Action. The off-hand weapon deals damage at one die step down the chain. Both weapons must have the Close tag or be one-handed weapons without Reach. You may not use a shield while Dual Wielding.
+
+**Crack Shot**
+Prerequisites: Archery 3 or Firearms 3
+Choose Archery or Firearms when taking this Power. Your ranged attacks with the chosen skill gain Armour Piercing 1. If the weapon already has Armour Piercing, increase its value by 1 instead.
+
+**Quick Reload**
+Prerequisites: Firearms 2 or Archery 2
+Your reload time is dramatically reduced. Weapons with the Slow tag require only a Bonus Action to reload rather than an Action.
+
+**Martial Arts**
+Prerequisites: Agility d6, Unarmed Combat 4
+Use Agility instead of Strength for unarmed attacks. Unarmed damage increases to d6. As a Bonus Action when making an Unarmed Attack, you may attempt to Stun your target as though your strikes had the Stuns tag.
+
+### Energy and Stamina
+
+**Iron Stamina**
+
+*Prerequisites*: Strength d6 or Spirit d6
+
+Your Energy pool increases by 3.
+
+**Battle Flow**
+
+*Prerequisites*: Any Combat Skill rank 4
+
+When you reduce an enemy to Knocked Out or kill them outright, recover 2 Energy. This may not exceed your maximum Energy.
+
+**Efficient Fighter**
+
+*Prerequisites*: Any Combat Skill rank 3
+
+The Energy cost of Press and Feint is reduced to 0. You have internalised these manoeuvres so thoroughly they no longer drain you.
+
+TODO
+**Rage**
+
+Once per Fight when not wearing Encumbring Armour. You have advantage on Strength Checks and Fortitude Saves. You cannot Concentrate for the purposes of other powers. You have resistance to bludgeoning, piercing, and slashing damage. When you make a melee weapon attack using Strength, increase the damage by 1.
+
+### Defence and Evasion
+
+**Duellist**
+Prerequisites: Duelling 3, Agility d6
+You are exceptionally dangerous in single combat and difficult to mob. When fighting a single opponent you gain one Advantage step on both attack and Defend rolls. When two or more enemies engage you simultaneously, only one of them benefits from the Flanked condition - additional attackers are crowding each other as much as they are pressuring you.
+
+**Deflect**
+Prerequisites: Any Combat Skill rank 3, Agility d6
+When you succeed on a Defend Action by 3 or more above the attacker's roll, you may immediately make a free attack against that attacker as a Bonus Action. This attack uses your normal combat skill and stat but deals damage at one die step down.
+
+**Bodyguard**
+Prerequisites: Any Combat Skill rank 3, Strength d6
+When an adjacent ally is targeted by an attack, you may spend 1 Energy to intercept - you become the target of that attack instead. You must declare this before the attack resolves. You may use Brace in the same exchange if you have Energy remaining.
+
+**Light-Footed**
+Prerequisites: Agility d8, Stealth 2
+Your movement in combat is evasive and unpredictable. Increase your Evasion by 1. Additionally you may Dash as a Bonus Action rather than an Action, though you still may not attack in the same round.
+
+**Death's Doorstep**
+Prerequisites: Spirit d8, Grit
+You are exceptionally hard to finish. While Dying you suffer no Disadvantage on attack rolls. Additionally the TN of your Spirit rolls to resist Fatal Injury escalation is reduced by 2.
+
+### Command
+
+**Tactical Eye**
+Prerequisites: Intelligence d6, Insight 3
+Your read of a fight is exceptional. Once per round as a Bonus Action, you may identify a tactical opening for an ally you can see. That ally gains one Advantage step on their next roll this round. This requires clear sightlines and the ability to communicate.
+
+**Rallying Cry**
+Prerequisites: Spirit d6, Intimidation 2 or Persuasion 2
+Once per fight as an Action, you may issue a rallying cry to all allies who can hear you. Each affected ally recovers 2 Energy. Allies who are Knocked Out may make an immediate Recovery Roll - on a success they act as though at 1 rank below their Limit rather than Knocked Out, for this round only.
+
+**Commander**
+Prerequisites: Spirit d8, Persuasion 3, Tactical Eye
+Your presence and authority in a fight is a force multiplier. Allies who can hear and see you gain one Advantage step when acting on a direct tactical instruction you issue. This applies once per ally per round and requires your Bonus Action to direct. You may not direct yourself.
+
+**Inspiring Presence**
+Prerequisites: Spirit d8
+Your effect on allies is passive as well as active. Allies within close range of you who can see you fighting gain +1 to all damage rolls. Being present and visibly committed to the fight is enough - this requires no action.
+
+### Recovery and Resilience
+
+**Grit**
+Prerequisites: Strength d6 or Spirit d6
+Your Recovery Rolls after a fight are more effective. Roll twice and take the better result. Additionally reduce the rank of one Injury of your choice by 1 additional rank when you succeed on a Recovery Roll.
+
+**Unstoppable**
+Prerequisites: Strength d8
+You are difficult to disengage from safely. Enemies may not use the Dash manoeuvre to safely disengage from you - if they attempt it, you may make a free attack against them as they move. This attack resolves before they complete their movement.
+
+### Manoeuvre Powers
+
+**Dirty Fighting**
+Prerequisites: Subterfuge 2
+You have learned to fight without honour and with great effectiveness. Spend 1 Energy when you make an attack roll to use Diry Fighting. On a hit, the target suffers one Disadvantage on all rolls until the end of their next Action. This manoeuvre has no effect on targets that cannot be distracted or pained at GM discretion.
+
+**Disarming Strike**
+Prerequisites: Any Combat Skill rank 3
+You have trained the precise leverage and timing required to strip a weapon from an opponent's grip. Spend 2 Energy to make an attack roll to use Disarming Strike. On a hit, instead of damage, the target's weapon is knocked away to a location of your choice in Short Range.
+
+**Body Throw**
+Prerequisites: Unarmed Combat 3, Strength d6
+You have trained the body mechanics required to take an opponent off their feet and put them on the ground. Spend 2 Energy to make an unarmed attack roll to attempt a Body Throw. On a hit, instead of damage, the target is thrown to a location of your choice in Short Range and made Prone. A target larger than you imposes one Disadvantage per size larger.
