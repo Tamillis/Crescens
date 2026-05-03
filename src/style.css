@@ -4,8 +4,8 @@
   --shadow: rgba(0,0,0,0.25);
   --border: #e5e4e7;
 
-  --accent: #aa3bff;
-  --accent-border: rgba(170, 59, 255, 0.5);
+  --accent: #001d5c;
+  --accent-border: rgb(0, 2, 94);
 
   --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
   --mono: ui-monospace, Consolas, monospace;
@@ -27,12 +27,26 @@
   margin: 0 auto;
 }
 
-nav ul {
+nav {
   display: flex;
-  list-style: none;
   width: 100%;
   justify-content: center;
+  align-items: center;
   background-color: var(--shadow);
+}
+
+nav a {
+  padding: 4px 8px;
+  margin-left: 0;
+  text-transform: capitalize;
+  cursor: pointer;
+  border-right: solid 1px var(--accent-border);
+  text-decoration: none;
+  color: var(--accent)
+}
+
+nav a:last-child {
+  border-right: none;
 }
 
 blockquote {
@@ -46,19 +60,6 @@ blockquote p {
 
 li {
   margin-left: 1em;
-}
-
-nav li {
-  padding: 4px 8px;
-  margin-left: 0;
-  text-transform: capitalize;
-  cursor: pointer;
-  border-right: solid 1px var(--text);
-}
-
-
-nav li:last-child {
-  border-right: none;
 }
 
 h1 {

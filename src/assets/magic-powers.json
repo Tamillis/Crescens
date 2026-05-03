@@ -1,0 +1,218 @@
+[
+  {
+    "name": "Abjuration",
+    "stat": "Mind",
+    "skill": "Faith / Arcane",
+    "domain": "Warding, Banishing, Denial (Resistance, Dispel Magic, Banishment, Antimagic Field)",
+    "description": "The art of magical negation and dismissal. This power focuses on unraveling hostile workings, maintaining the sanctity of space, and forcibly returning extra-planar entities to their origins.",
+    "examples": "Deflecting projectiles, simple wards against entry. Dispelling high magic, banishing demons, creating \"dead magic\" zones."
+  },
+  {
+    "name": "Aegis",
+    "stat": "Mind",
+    "skill": "Faith / Arcane",
+    "domain": "Warding: Physical and magical barriers, shielding.",
+    "description": "A defensive discipline focused on the creation of tangible barriers. It converts magical energy into physical reinforcement, allowing the caster to harden air or objects into impenetrable shields.",
+    "examples": "Deflecting a single arrow, hardening clothing into mail, creating a small \"bubble\" against rain or wind. Constructing an impenetrable dome, creating a \"sanctuary\" that rejects all violence, reflecting spells."
+  },
+  {
+    "name": "Aeromancy",
+    "stat": "Will",
+    "skill": "Elementalism / Verdance",
+    "domain": "Wind, Air, Flight (Gust, Levitate, Fly, Control Weather)",
+    "description": "Manipulation of the atmosphere and gas pressures. This power grants control over the winds, ranging from subtle currents for flight to the destructive force of a localized hurricane.",
+    "examples": "Pushing enemies, local breezes, slow-falling. Sustained flight, tornadoes, changing regional weather."
+  },
+  {
+    "name": "Banishing",
+    "stat": "Mind",
+    "skill": "Faith / Witchcraft",
+    "domain": "Abjuration: Exorcism, closing gates, and \"denial\" of beings.",
+    "description": "A specialized branch of abjuration dedicated to the severance of supernatural tethers. It is used to seal planar rifts and dominate the presence of spirits, demons, or constructs.",
+    "examples": "Shaking the resolve of a summoned creature, closing a small supernatural \"leak,\" sensing \"outsiders.\" Ripping a demon back to its home plane, sealing a massive rift, creating a zone where \"Powers\" cannot function."
+  },
+  {
+    "name": "Biomancy",
+    "stat": "Mind",
+    "skill": "Verdance / Witchcraft",
+    "domain": "Flesh-warping, Mutation, Evolution (Enlarge/Reduce, Alter Self, Polymorph)",
+    "description": "The reshaping of biological matter and genetic blueprints. Biomancy allows for the instantaneous adaptation of the physical form, whether to improve the self or deform a foe.",
+    "examples": "Changing eye color, growing claws for a fight, hardening skin into bark or chitin. Forcing a target to mutate painfully, fusing two creatures, total biological reconstruction."
+  },
+  {
+    "name": "Chaos",
+    "stat": "Will",
+    "skill": "Witchcraft",
+    "domain": "Entropy, Probability, Luck (Bane, Bless, Confusion)",
+    "description": "The manipulation of the unpredictable. This power touches the threads of causality to favor unlikely outcomes, causing either stroke of genius or catastrophic misfortune in others.",
+    "examples": "Making a target trip, slightly nudging a die roll, causing a small \"glitch\" in reality. Causing a cascade of \"unlikely\" disasters, unraveling the laws of physics in a localized area."
+  },
+  {
+    "name": "Chronancy",
+    "stat": "Mind",
+    "skill": "Arcane",
+    "domain": "Time, Stasis, Haste (Haste, Slow, Hold Person, Time Stop)",
+    "description": "The hazardous mastery of the temporal flow. It allows a caster to alter the speed at which time passes for specific objects or areas, effectively creating moments of stasis or extreme acceleration.",
+    "examples": "Accelerating your own movement, \"pausing\" a falling object, catching a glimpse of 6 seconds ago. Freezing a room in time, aging an object to dust, localized \"save states\" or rewinds."
+  },
+  {
+    "name": "Cryomancy",
+    "stat": "Mind / Will",
+    "skill": "Arcane / Verdance / Elementalism",
+    "domain": "Ice, Cold, Sleet (Ray of Frost, Ice Knife, Cone of Cold, Sleet Storm)",
+    "description": "The extraction of thermal energy from the environment. By rapidly cooling the air or liquid around them, the caster can manifest jagged ice formations or drain the literal warmth from a living being.",
+    "examples": "Freezing surfaces, chilling touches, ice shards. Blizzards, flash-freezing large areas, walls of ice."
+  },
+  {
+    "name": "Divination",
+    "stat": "Mind / Will",
+    "skill": "Faith / Witchcraft",
+    "domain": "Fate, Vision, Truth (Guidance, Detect Magic, Scrying, Foresight)",
+    "description": "The expansion of sensory perception beyond the physical. Divination pierces the veil of distance, time, and deception to reveal hidden truths or likely futures.",
+    "examples": "Finding objects, detecting intent, glimpses of the future. True seeing, scrying on distant lands, perfect battlefield foresight."
+  },
+  {
+    "name": "Ecomancy",
+    "stat": "Mind",
+    "skill": "Verdance",
+    "domain": "Pheromones, Fungi, Hive-minds (Speak with Plants, Insect Cloud, Antilife Shell)",
+    "description": "A focus on the interconnected web of biological ecosystems. It allows communication with non-sentient life and the command over swarms, spores, and rapid floral growth.",
+    "examples": "Controlling a swarm of bees, accelerating fungal growth, \"scenting\" a predator from miles away. Creating a forest-wide hive mind, turning a city into an overgrown jungle overnight."
+  },
+  {
+    "name": "Electromancy",
+    "stat": "Mind",
+    "skill": "Arcane / Elementalism",
+    "domain": "Lightning, Thunder, Vibration (Shocking Grasp, Thunderwave, Lightning Bolt)",
+    "description": "Control over the electromagnetic spectrum and kinetic vibration. This power produces high-voltage discharges and sonic booms that can incapacitate or shatter targets.",
+    "examples": "Small shocks, loud bangs to deafen, magnetic pulls. Chain lightning, massive sonic booms, localized storms."
+  },
+  {
+    "name": "Geomancy",
+    "stat": "Will",
+    "skill": "Elementalism / Arcane",
+    "domain": "Earth, Stone, Gravity (Mold Earth, Shield, Erupting Earth, Wall of Stone)",
+    "description": "The manipulation of telluric forces and geological matter. Geomancy grants power over the very ground, allowing for the shaping of stone and the local alteration of gravity.",
+    "examples": "Moving dirt, hardening skin (Shield), creating difficult terrain. Earthquakes, raising stone walls, crushing gravitational fields."
+  },
+  {
+    "name": "Hemomancy",
+    "stat": "Will",
+    "skill": "Witchcraft",
+    "domain": "Blood, Vital fluids, Sacrifice (Vampiric Touch, Bestow Curse)",
+    "description": "A grisly discipline that uses blood as a sympathetic focus. By controlling vital fluids, the caster can sustain life, inflict agonizing internal damage, or fuel great workings through sacrifice.",
+    "examples": "Tracking someone via a blood droplet, staunching a wound, causing a nosebleed to distract. Boiling the blood in an enemy's veins, \"puppeteering\" a body, ritual sacrifices for massive power."
+  },
+  {
+    "name": "Hydromancy",
+    "stat": "Mind / Will",
+    "skill": "Elementalism / Verdance",
+    "domain": "Water, Mist, Pressure (Shape Water, Fog Cloud, Control Water, Tidal Wave)",
+    "description": "The command of liquid water and its various states. It encompasses everything from the creation of obscuring mists to the control of crushing hydrostatic pressure.",
+    "examples": "Creating water, obscuring mist, high-pressure jets. Summoning floods, parting seas, massive tidal waves."
+  },
+  {
+    "name": "Illusionism",
+    "stat": "Mind",
+    "skill": "Arcane / Witchcraft",
+    "domain": "Light, Sound, Deception (Minor Illusion, Invisibility, Major Image, Seeming)",
+    "description": "The manipulation of light and sound to deceive the senses. This power creates false sensory data, ranging from simple static images to complex, multi-sensory fabrications.",
+    "examples": "Disguising oneself, static images, ventriloquism. Making whole buildings \"disappear,\" perfect sensory replicas."
+  },
+  {
+    "name": "Kinesis",
+    "stat": "Will",
+    "skill": "Arcane",
+    "domain": "Magical Movement: Velocity, inertia, and verticality.",
+    "description": "The science of motion and momentum. Kinesis allows the caster to ignore the standard laws of physics regarding their own movement or the movement of objects through space.",
+    "examples": "A sudden \"dash\" of speed, walking on walls, leaping triple the normal distance, cushioning a fall. Mass levitation of a party, moving at speeds invisible to the eye, walking on air as if it were solid stone."
+  },
+  {
+    "name": "Mortis",
+    "stat": "Mind",
+    "skill": "Witchcraft / Faith / Verdance",
+    "domain": "Death, Rot, Souls (Chill Touch, Animate Dead, Blight, Finger of Death)",
+    "description": "Mastery over the transition between life and death. Mortis can be used to decay organic matter, command the spirits of the departed, or reanimate empty vessels.",
+    "examples": "Rotting food, speaking to the dead, draining life force. Raising armies of undead, instant death touches, soul trapping."
+  },
+  {
+    "name": "Oneiromancy",
+    "stat": "Will",
+    "skill": "Faith / Witchcraft",
+    "domain": "Souls, Ghosts, Ethereal plane (Etherealness, Astral Projection, Spirit Guardians)",
+    "description": "The study of the spirit and the ethereal realms. This power focuses on the essence of the being, allowing for astral travel and the protection or disruption of the soul itself.",
+    "examples": "Seeing ghosts, speaking to a lingering echo, touching a target's \"aura\" to sense alignment. Ripping a soul from a body, traveling to the spirit world, summoning a host of ancestral warriors."
+  },
+  {
+    "name": "Noxamancy",
+    "stat": "Will",
+    "skill": "Witchcraft",
+    "domain": "Dreams, Nightmares, Sleep (Sleep, Dream, Phantasmal Killer)",
+    "description": "The manipulation of the subconscious and the dreamscape. It allows the caster to slip into the minds of those who sleep, planting ideas or manifesting their worst fears into the physical world.",
+    "examples": "Inducing drowsiness, entering a sleeping person's dream to observe. Manifesting a nightmare into the physical world, trapping a mind in a permanent dream-loop."
+  },
+  {
+    "name": "Phasing",
+    "stat": "Mind",
+    "skill": "Arcane / Witchcraft",
+    "domain": "Spatial Utility: Passing through matter and \"pocket\" dimensions.",
+    "description": "The bending of spatial coordinates. This power allows for the temporary negation of solid matter, permitting the caster to pass through walls or tuck objects into extra-dimensional folds.",
+    "examples": "Reaching a hand through a door to unlock it, \"storing\" a weapon in a fold of space. Stepping through a solid fortress wall, pulling a whole room into a \"limbo\" space to hide from an army."
+  },
+  {
+    "name": "Polemos",
+    "stat": "Mind / Will",
+    "skill": "Arcane / Faith",
+    "domain": "Battle Magic: Force, accuracy, and tactical enhancement.",
+    "description": "A tactical discipline that enhances physical combat with magical force. It is used to imbue weapons with destructive energy, guide strikes with supernatural precision, and fortify allies.",
+    "examples": "Guiding a blade to strike true, manifesting a \"force\" weapon, adding impact to a strike. Imbuing a whole squad’s weapons, creating a hail of phantom blades, crushing armor with raw force."
+  },
+  {
+    "name": "Pyromancy",
+    "stat": "Mind / Will",
+    "skill": "Arcane / Elementalism",
+    "domain": "Fire, Heat, Smoke (Firebolt, Burning Hands, Fireball, Wall of Fire)",
+    "description": "The manifestation and shaping of thermal energy. Pyromancy allows a caster to ignite the atmosphere, project blasts of flame, and command the destructive power of heat.",
+    "examples": "Ignite objects, single target fire bolts, small bursts. Massive explosions, persistent walls of flame, fire storms."
+  },
+  {
+    "name": "Sympathy",
+    "stat": "Will",
+    "skill": "Arcane / Faith",
+    "domain": "Links, Dolls, Reflection (Scrying, Warding Bond)",
+    "description": "The law of contagion and similarity. Sympathy creates a metaphysical link between two separate objects, allowing actions performed on one to reflect perfectly upon the other.",
+    "examples": "Linking two stones so what happens to one happens to the other, \"feeling\" what a distant friend feels. Creating a \"Voodoo\" link to a king to kill him from across the sea, transferring your injuries to an enemy."
+  },
+  {
+    "name": "Technomancy",
+    "stat": "Mind",
+    "skill": "Arcane",
+    "domain": "Machines, Metal, Logic (Identify, Heat Metal, Fabricate)",
+    "description": "The intersection of magic and mechanism. This power allows the caster to interface with complex machines, manipulate metallic alloys, and imbue inanimate devices with a spark of logic.",
+    "examples": "Speaking to a machine's \"spirit,\" repairing a gear, sensing the layout of a clockwork device. Animating a siege engine, \"programming\" a door to never open, fusing metal into impossible shapes."
+  },
+  {
+    "name": "Telepathics",
+    "stat": "Mind",
+    "skill": "Arcane / Witchcraft",
+    "domain": "Mind, Memory, Senses (Message, Charm Person, Suggestion, Modify Memory)",
+    "description": "The direct influence of the conscious mind. It ranges from the subtle projection of thoughts and emotions to the total subversion of a target's will and memory.",
+    "examples": "Short messages, minor charms, sensing surface thoughts. Rewriting memories, total mind control, psychic screams."
+  },
+  {
+    "name": "Translocation",
+    "stat": "Mind / Will",
+    "skill": "Arcane",
+    "domain": "Space, Distance, Portals (Misty Step, Dimension Door, Teleport, Plane Shift)",
+    "description": "The instantaneous folding of space. Translocation permits the caster to move from one point to another without crossing the intervening distance, bypassing physical barriers entirely.",
+    "examples": "Short blinks, opening locked doors, \"storing\" small items. Teleporting parties across the world, opening planar gates."
+  },
+  {
+    "name": "Vitalism",
+    "stat": "Will",
+    "skill": "Faith / Verdance",
+    "domain": "Healing, Growth, Fortitude (Cure Wounds, Lesser Restoration, Revivify, Heal)",
+    "description": "The acceleration of natural recovery and life force. Vitalism mends tissues, purges toxins, and can invigorate the body to perform feats beyond its normal physical limits.",
+    "examples": "Closing small wounds, curing poison, boosting stamina. Regenerating limbs, curing plagues, resurrecting the dead."
+  }
+]

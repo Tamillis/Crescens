@@ -1,14 +1,17 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import Markdown from 'unplugin-vue-markdown/vite'
+import anchor from 'markdown-it-anchor'
 
-// https://vite.dev/config/
 export default defineConfig({
   plugins: [
     vue({
-      // This allows Vue to process .md files as components
       include: [/\.vue$/, /\.md$/],
     }),
-    Markdown(),
-  ],
+    Markdown({
+      markdownItSetup(md) {
+        md.use(anchor)
+      }
+    })
+  ]
 })
