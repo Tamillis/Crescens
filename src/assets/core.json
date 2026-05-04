@@ -1,0 +1,24 @@
+{
+    "skills": [
+        "Animal",
+        "Art",
+        "Charm",
+        "Crafting",
+        "Deception",
+        "First",
+        "Insight",
+        "Intimidation",
+        "Knowledge",
+        "Logic",
+        "Martial Arts",
+        "Persuasion",
+        "Piloting",
+        "Search",
+        "Shooting",
+        "Stealth",
+        "Subterfuge",
+        "Weaponry",
+        "Wilderness"
+    ],
+    "stats": ["Strength", "Agility", "Peception", "Intelligence", "Spirit"]
+}

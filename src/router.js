@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import MagicPowers from './pages/MagicPowers.vue'
+import CharacterCreator from './pages/CharacterCreator.vue';
 
 const mdModules = import.meta.glob('./docs/\*.md', { eager: true })
 
@@ -17,10 +18,16 @@ const mdRoutes = Object.keys(mdModules).map((path) => {
 const routes = [
   { path: '/', redirect: '/docs/core' },
   { 
-    path: '/powers', 
-    name: 'powers', 
+    path: '/magic-powers', 
+    name: 'magic-powers', 
     component: MagicPowers,
     meta: { title: 'Magic Powers' } 
+  },
+  { 
+    path: '/character-creator', 
+    name: 'character-creator', 
+    component: CharacterCreator,
+    meta: { title: 'Character Creator' } 
   },
   ...mdRoutes
 ]

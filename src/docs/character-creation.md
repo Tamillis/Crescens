@@ -15,8 +15,6 @@ Core Crescens, however, only deals with Humans:
 **Human** is the default ancestry of Crescens. You start the game with a Skill Increase (see Progression, below). Roll statistics as normal.
 
 ### Rolling Statistics
-For an explanation of Statistics, see `Core`.
-
 Determine your character's Statistics by:
 - Rolling 7 six-sided dice
 - Discarding the highest and lowest

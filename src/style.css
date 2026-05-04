@@ -80,3 +80,16 @@ td, th {
   border: 1px solid var(--text);
   padding: 2px 4px;
 }
+
+button {
+  outline: none;
+  border-radius: 0px;
+  background-color: var(--bg);
+  border: 1px solid var(--accent-border);
+  color: var(--accent);
+  padding: 2px 0.5rem;
+}
+
+button:active {
+  transform: translateY(2px);
+}

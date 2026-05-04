@@ -97,9 +97,10 @@ const scrollToId = (id) => {
 }
 
 .content {
-  padding: 2rem;
+  padding: 0.5rem 2rem;
   overflow-y: auto;
   max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
 }
 
