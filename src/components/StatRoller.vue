@@ -1,12 +1,17 @@
 <template>
-    <div class="roller-container">
-        <button @click="rollResults" class="roll-result">Roll</button>
-        <p class="colon">:</p>
-
-        <div v-for="result in results" class="roll-result">
-            <p :class="{red: !result.kept}">{{ result.stat }}</p>
-            <p :class="{red: !result.kept}">{{ result.value }}</p>
-            <p :class="{red: !result.kept}" style="font-size: 1rem">{{ result.statValue }}</p>
+    <div>
+        <p>Roll 5 6-sided dice, assigning them in-order to Strength, Agility, Perception, Intelligence and Spirit.</p>
+        <p>A result of 1-2 is d4, 3-4 is d6 and 5-6 is d8.</p>
+        <p><small>If you end up with 3 d4's or 3 d8's (or more!) you should re-roll. Click to swap stats.</small></p>
+        <div class="roller-container">
+            <button @click="rollResults" class="roll-result">Roll</button>
+            <p class="colon">:</p>
+    
+            <div v-for="result in results" class="roll-result" @click="swap(result.stat)" :class="{green: result.stat == swapSelected}">
+                <p :class="{red: !result.kept}" class="capitalise">{{ result.stat }}</p>
+                <p :class="{red: !result.kept}">{{ result.value }}</p>
+                <p :class="{red: !result.kept}" style="font-size: 1rem">{{ result.statValue }}</p>
+            </div>
         </div>
     </div>
 </template>
@@ -16,44 +21,44 @@ import { ref } from 'vue';
 import core from '../assets/core.json';
 
 let diceRoll = () => Math.floor(Math.random() * 6) + 1;
-const rollValueMap = ["d4", "d4", "d6", "d6", "d6", "d8"];
+const rollValueMap = ["d4", "d4", "d6", "d6", "d8", "d8"];
 
 const results = ref([]);
-rollResults();
+const swapSelected = ref("");
 
+function swap(stat) {
+    if(swapSelected.value) {
+        let selectedResult = results.value.filter(result => result.stat == swapSelected.value)[0];
+        let clickedResult = results.value.filter(result => result.stat == stat)[0];
+        let tempValue = selectedResult.value;
+        let tempStatValue = selectedResult.statValue;
 
-function rollResults() {
-    results.value = [];
-    let min = 6, minN = 0;
-    let max = 1, maxN = 0;
-    for (let n = 0; n < core.stats.length + 2; n++) {
-        results.value.push({
-            value: diceRoll(),
-            stat: "",
-            statValue: "",
-            kept: true
-        });
+        selectedResult.value = clickedResult.value;
+        selectedResult.statValue = clickedResult.statValue;
+        clickedResult.value = tempValue;
+        clickedResult.statValue = tempStatValue;
 
-        if (results.value[n].value <= min) {
-            minN = n;
-            min = results.value[n].value;
-        }
-        if (results.value[n].value >= max) {
-            maxN = n;
-            max = results.value[n].value;
-        }
+        swapSelected.value = "";
     }
-
-    results.value[minN].kept = false;
-    results.value[maxN].kept = false;
-
-    let i = 0;
-    for(let result of results.value) {
-        result.statValue = rollValueMap[result.value - 1];
-        if(result.kept) result.stat = core.stats[i++];
-        else result.stat = "Ignored";
+    else {
+        swapSelected.value = stat;
     }
 }
+
+rollResults();
+function rollResults() {
+    results.value = [];
+    for (let stat of core.stats) {
+        let roll = diceRoll();
+        results.value.push({
+            value: roll,
+            stat: stat,
+            statValue: rollValueMap[roll - 1],
+            kept: true
+        });
+    }
+}
+
 </script>
 
 <style scoped>
@@ -72,6 +77,7 @@ function rollResults() {
     align-items: center;
     border-radius: 4px;
     border: 1px solid var(--accent);
+    cursor: pointer;
 }
 
 .roll-result p {
@@ -82,6 +88,10 @@ function rollResults() {
 
 .red {
     color: red;
+}
+
+.green {
+    border-color: green;
 }
 
 .colon {

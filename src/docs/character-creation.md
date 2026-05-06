@@ -16,10 +16,9 @@ Core Crescens, however, only deals with Humans:
 
 ### Rolling Statistics
 Determine your character's Statistics by:
-- Rolling 7 six-sided dice
-- Discarding the highest and lowest
+- Rolling 5 six-sided dice
 - Reading left to right, note your Strength, Agility, Perception, Intelligence and Spirit in that order with the value rolled on the remaining dice.
-- A result of 1-2 a d4, 3-4-5 a d6, and 6 a d8.
+- A result of 1-2 a d4, 3-4 a d6, and 5-6 a d8.
 
 You may swap one result with another.
 
@@ -39,18 +38,18 @@ The Core Backgrounds applicable to nearly any setting are:
 
 | Background | Description | Suggested Skills | Equipment |
 | --- | --- | --- | --- |
-| **Privileged** | Born into comfort and high social standing; instinctively understands how power and social circles operate. | Charm, Knowledge (History) | Fine clothing, signet ring/mark of station, personal servant, large sum of money, letter of introduction. |
-| **Labourer** | Experienced in hard physical work; understands how things are built, grown, and maintained through manual toil. | Animal Handling, Crafting | Sturdy worn clothing, trade tools, small sum of money, letter from employer/guild. |
-| **Poor** | Grew up in a world not made for them; survived through wit, stubbornness, and the ability to make something from nothing. | Subterfuge, Wilderness | Threadbare practical clothing, item of personal significance, almost no money, a debt owed to them. |
-| **Merchant** | Understands the price of everything; experienced in negotiation, moving goods, and the thin line between profit and ruin. | Charm, Persuasion | Decent travelling clothes, scales, well-kept ledger, medium sum of money, outstanding contract/promissory note. |
-| **Performer** | Experienced in commanding attention and evoking emotion; understands crowds, timing, and the courage of the stage. | Art, Charm | Costume/performance outfit, instrument or prop, practical clothes, small/medium sum of money, letter from admirer/patron. |
-| **Servant** | Worked within the homes of the powerful; privy to the private reality of those in charge and the secrets behind closed doors. | Insight, Knowledge (Culture) | Modest uniform/livery, practical clothing, reference letter, small sum of money, a house key. |
-| **Artisan** | Skilled in creating quality goods with judgment and training; finds satisfaction in work done properly without cutting corners. | Crafting, Knowledge (Engineering) | Trade tools in good condition, practical working clothes, project materials, small sum of money, guild membership/certificate. |
-| **Sailor** | Shaped by the demands of the sea; skilled in navigation, weather-reading, and living in close quarters with others. | Piloting, Wilderness | Weatherproof clothing, good knife, rope, worn nautical chart, small sum of money, letter from a port. |
-| **Wanderer** | Always on the move; familiar with the freedom of the road and the reality of being a stranger in every place. | Wilderness, Animal Handling | Practical travelling clothes, bedroll, week of rations, optimistic map, small sum of money, memento. |
+| **Artisan** | Skilled in creating quality goods with judgment and training; finds satisfaction in work done properly without cutting corners. | Crafting, Knowledge (Engineering) | Trade tools in good condition, practical working clothes, project materials, small sum of money, guild/union membership. |
 | **Criminal** | Operates in the gray area between legality and necessity; possesses knowledge of how locks, people, and systems fail. | Subterfuge, Deception | Dark practical clothing, lockpicks, weapon of debatable legality, medium sum of money, favor/debt note. |
-| **Scholar** | Dedicated to deep, specific study at the cost of time and relationships; possesses specialized knowledge others overlook. | Knowledge (Arcane, Nature, Occult, or Religion), Logic | Ink-stained clothing, writing materials, two reference texts, small sum of money, academic letter/thesis. |
+| **Labourer** | Experienced in hard physical work; understands how things are built, grown, and maintained through manual toil. | Animal Handling, Crafting | Sturdy worn clothing, trade tools, small sum of money, letter from employer/guild. |
 | **Military** | Served a larger institution; understands how to follow orders, fight, and how systems function when ideals fade. | Intimidation, Weaponry | Former uniform, service weapon, bedroll, small/medium sum of money, discharge papers/commendation. |
+| **Performer** | Experienced in commanding attention and evoking emotion; understands crowds, timing, and the courage of the stage. | Art, Charm | Costume/performance outfit, instrument or prop, practical clothes, small/medium sum of money, letter from admirer/patron. |
+| **Poor** | Grew up in a world not made for them; survived through wit, stubbornness, and the ability to make something from nothing. | Subterfuge, Wilderness | Threadbare practical clothing, item of personal significance, almost no money, a debt owed to them. |
+| **Privileged** | Born into comfort and high social standing; instinctively understands how power and social circles operate. | Charm, Knowledge (History) | Fine clothing, signet ring/mark of station, personal servant, large sum of money, letter of introduction. |
+| **Sailor** | Shaped by the demands of the sea; skilled in navigation, weather-reading, and living in close quarters with others. | Piloting, Wilderness | Weatherproof clothing, good knife, rope, worn nautical chart, small sum of money, letter from a port. |
+| **Scholar** | Dedicated to deep, specific study at the cost of time and relationships; possesses specialized knowledge others overlook. | Knowledge (Arcane, Nature, Occult, or Religion), Logic | Ink-stained clothing, writing materials, two reference texts, small sum of money, academic letter/thesis. |
+| **Servant** | Worked within the homes of the powerful; privy to the private reality of those in charge and the secrets behind closed doors. | Insight, Knowledge (Culture) | Modest uniform/livery, practical clothing, reference letter, small sum of money, a house key. |
+| **Trader** | Understands the price of everything; experienced in negotiation, moving goods, and the thin line between profit and ruin. | Charm, Persuasion | Decent travelling clothes, scales, well-kept ledger, medium sum of money, outstanding contract/promissory note. |
+| **Wanderer** | Always on the move; familiar with the freedom of the road and the reality of being a stranger in every place. | Wilderness, Animal Handling | Practical travelling clothes, bedroll, week of rations, optimistic map, small sum of money, memento. |
 
 Suggested Skills are not mandatory, you can choose skills freely.
 

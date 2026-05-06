@@ -5,7 +5,7 @@
         "Charm",
         "Crafting",
         "Deception",
-        "First",
+        "First Aid",
         "Insight",
         "Intimidation",
         "Knowledge",
@@ -20,5 +20,85 @@
         "Weaponry",
         "Wilderness"
     ],
-    "stats": ["Strength", "Agility", "Peception", "Intelligence", "Spirit"]
+    "stats": [
+        "strength",
+        "agility",
+        "perception",
+        "intelligence",
+        "spirit"
+    ],
+    "backgrounds": [
+        {
+            "name": "Artisan",
+            "desc": "Skilled in creating quality goods with judgment and training; finds satisfaction in work done properly without cutting corners.",
+            "skills": "Crafting, Knowledge (Engineering)",
+            "equipment": "Trade tools in good condition, practical working clothes, project materials, small sum of money, guild/union membership."
+        },
+        {
+            "name": "Criminal",
+            "desc": "Operates in the gray area between legality and necessity; possesses knowledge of how locks, people, and systems fail.",
+            "skills": "Subterfuge, Deception",
+            "equipment": "Dark practical clothing, lockpicks, weapon of debatable legality, medium sum of money, favor/debt note."
+        },
+        {
+            "name": "Labourer",
+            "desc": "Experienced in hard physical work; understands how things are built, grown, and maintained through manual toil.",
+            "skills": "Animal Handling, Crafting",
+            "equipment": "Sturdy worn clothing, trade tools, small sum of money, letter from employer/guild."
+        },
+        {
+            "name": "Military",
+            "desc": "Served a larger institution; understands how to follow orders, fight, and how systems function when ideals fade.",
+            "skills": "Intimidation, Weaponry",
+            "equipment": "Former uniform, service weapon, bedroll, small/medium sum of money, discharge papers/commendation."
+        },
+        {
+            "name": "Performer",
+            "desc": "Experienced in commanding attention and evoking emotion; understands crowds, timing, and the courage of the stage.",
+            "skills": "Art, Charm",
+            "equipment": "Costume/performance outfit, instrument or prop, practical clothes, small/medium sum of money, letter from admirer/patron."
+        },
+        {
+            "name": "Poor",
+            "desc": "Grew up in a world not made for them; survived through wit, stubbornness, and the ability to make something from nothing.",
+            "skills": "Subterfuge, Wilderness",
+            "equipment": "Threadbare practical clothing, item of personal significance, almost no money, a debt owed to them."
+        },
+        {
+            "name": "Privileged",
+            "desc": "Born into comfort and high social standing; instinctively understands how power and social circles operate.",
+            "skills": "Charm, Knowledge (History)",
+            "equipment": "Fine clothing, signet ring/mark of station, personal servant, large sum of money, letter of introduction"
+        },
+        {
+            "name": "Sailor",
+            "desc": "Shaped by the demands of the sea; skilled in navigation, weather-reading, and living in close quarters with others.",
+            "skills": "Piloting, Wilderness",
+            "equipment": "Weatherproof clothing, good knife, rope, worn nautical chart, small sum of money, letter from a port."
+        },
+        {
+            "name": "Scholar",
+            "desc": "Dedicated to deep, specific study at the cost of time and relationships; possesses specialized knowledge others overlook.",
+            "skills": "Knowledge, Logic",
+            "equipment": "Ink-stained clothing, writing materials, two reference texts, small sum of money, academic letter/thesis."
+        },
+        {
+            "name": "Servant",
+            "desc": "Worked within the homes of the powerful; privy to the private reality of those in charge and the secrets behind closed doors.",
+            "skills": "Insight, Knowledge (Culture)",
+            "equipment": "Modest uniform/livery, practical clothing, reference letter, small sum of money, a house key."
+        },
+        {
+            "name": "Trader",
+            "desc": "Understands the price of everything; experienced in negotiation, moving goods, and the thin line between profit and ruin.",
+            "skills": "Charm, Persuasion",
+            "equipment": "Decent travelling clothes, scales, well-kept ledger, medium sum of money, outstanding contract/promissory note."
+        },
+        {
+            "name": "Wanderer",
+            "desc": "Always on the move; familiar with the freedom of the road and the reality of being a stranger in every place.",
+            "skills": "Wilderness, Animal Handling",
+            "equipment": "Practical travelling clothes, bedroll, week of rations, optimistic map, small sum of money, memento."
+        }
+    ]
 }

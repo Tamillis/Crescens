@@ -6,31 +6,40 @@
         <p>Human (Skill Increase)</p>
 
         <h2>Statistics</h2>
-        <p>Roll 7 6-sided dice and drop the highest and lowest roll. A result of 1-2 is d4, 3-4-5 is d6 and 6 is d8. These map in-order to Strength, Agility, Perception, Intelligence and Spirit</p>
-        <p><small>If you end up with 3 d4's or 3 d8's (or more!) re-roll.</small></p>
 
-        <button @click="useRoller = !useRoller" style="margin-bottom: 1rem;">{{ useRoller ? "Pick Manual Stats" : "Use Roller" }}</button>
+        <button @click="useRoller = !useRoller">{{ useRoller ? "Pick Manual Stats" : "Use Roller" }}</button>
 
-        <StatRoller v-if="useRoller" />
-        <div v-else>
-            <p>Manual stat allocation TODO</p>
+        <StatRoller v-if="useRoller" style="margin-top:1rem;" />
+        <ManualStatPicker v-else />
+
+        <h3>Derived Statistics</h3>
+
+        <p><strong>Limit: </strong> {{ "TODO: extract stat max from whichever stat gen is used" }}</p>
+        <p><strong>Evasion: </strong> {{ "TODO: extract stat max from whichever stat gen is used" }}</p>
+
+        <h2>Background</h2>
+        <p>Select one.</p>
+        <div class="bg-container">
+            <BackgroundCard v-for="bg in selectableBgs" :bg="bg" @click="selectBg(bg.name)" class="card" />
         </div>
+
 
         <h2>Skills</h2>
 
-        <div class="flex">
-            <select v-model="selectedSkill">
-                <option disabled value="">Select a skill...</option>
-                <option v-for="skill in core.skills">{{ skill }}</option>
-            </select>
-            <button @click="selectSkill">+</button>
+        <p>Choose 8 ranks of skills, where no skill can be higher than rank 3.</p>
+        <p><small>Ranks left: {{ ranksLeft }}</small></p>
 
-            <div v-for="skill in selectedSkills">
-                <p @click="removeSkill(skill)">{{ skill }}</p>
+        <div class="skills-container">
+            <div v-for="skill in selectableSkills" class="skill-container">
+                <button class="square" @click="decrementSkill(skill.name)">-</button>
+                <p class="m0 skill-name small">{{ skill.name }}</p>
+                <div style="flex-grow: 1;"></div>
+                <span>({{ skill.rank }})</span>
+                <button class="square" @click="incrementSkill(skill.name)">+</button>
             </div>
         </div>
 
-        
+
     </div>
 </template>
 
@@ -38,20 +47,106 @@
 import { ref } from 'vue';
 import StatRoller from '../components/StatRoller.vue';
 import core from '../assets/core.json';
+import ManualStatPicker from '../components/ManualStatPicker.vue';
+import BackgroundCard from '../components/BackgroundCard.vue';
 
 const useRoller = ref(true);
-const selectedSkills = ref([]);
-const selectedSkill = defineModel('selectedSkill');
 
-function selectSkill() {
-    if(!selectedSkills.value.includes(selectedSkill.value)) selectedSkills.value.push(selectedSkill.value);
+const selectableBgs = ref(core.backgrounds);
+const selectedBg = ref("");
+
+const selectableSkills = ref(core.skills.map(s => { return { name: s, rank: 0 } }))
+const ranksLeft = ref(8);
+
+function selectBg(clickedBg) {
+    if (selectedBg.value != "") {
+        selectableBgs.value = core.backgrounds;
+        selectedBg.value = "";
+    }
+    else {
+        selectableBgs.value = selectableBgs.value.filter(bg => bg.name == clickedBg);
+        selectedBg.value = clickedBg;
+    }
 }
 
-function removeSkill(skill) {
-    selectedSkills.value = selectedSkills.value.filter(ss => ss != skill);
+function incrementSkill(skill) {
+    const clickedSkill = selectableSkills.value.filter(s => s.name == skill)[0];
+    if(ranksLeft.value == 0 || clickedSkill.rank == 3) return;
+    clickedSkill.rank++;
+    ranksLeft.value--;
+}
+
+function decrementSkill(skill) {
+    const clickedSkill = selectableSkills.value.filter(s => s.name == skill)[0];
+    if(ranksLeft.value == 8 || clickedSkill.rank == 0) return;
+    clickedSkill.rank--;
+    ranksLeft.value++;
 }
 </script>
 
 <style scoped>
+.skill-selector {
+    border-radius: 4px;
+    border: 1px solid var(--accent-border);
+}
 
+.flex {
+    display: flex;
+    align-items: stretch;
+    gap: 0.5rem;
+    width: fit-content;
+}
+
+.square {
+    aspect-ratio: 1/1;
+    min-width: 1.5em;
+}
+
+.bg-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5rem;
+}
+
+@media (min-width: 1500px) {
+    .bg-container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .skills-container {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 0.5rem;
+    }
+}
+
+.skill-container {
+    display: flex;
+    width: 100%;
+    gap: 0.5rem;
+    border-right: 1px solid var(--accent-border);
+    padding-right: 0.5rem;
+}
+
+.skill-selector:last-child {
+    border-right: none;
+}
+
+.card {
+    cursor: pointer;
+}
+
+.card:hover {
+    border-color: green;
+}
+
+.skill-name {
+    padding-left: 0.25em;
+}
 </style>

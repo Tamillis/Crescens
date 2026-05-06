@@ -1,3 +1,31 @@
+<template>
+  <div class="layout">
+
+    <h1 class="icon">Crescens</h1>
+
+    <nav>
+      <router-link v-for="navItem in navigation" :key="navItem.path" :to="navItem.path" class="nav-link">
+        {{ navItem.meta?.title || navItem.name }}
+      </router-link>
+    </nav>
+
+    <aside class="toc">
+      <div v-if="headers.length > 0">
+        <h4 style="margin-bottom: 0">Headers</h4>
+        <ul>
+          <li v-for="h in headers" :key="h.id" :class="h.level">
+            <a :href="'#' + h.id" @click.prevent="scrollToId(h.id)">{{ h.text }}</a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <main ref="contentArea" class="content">
+      <router-view />
+    </main>
+  </div>
+</template>
+
 <script setup>
 import { ref, watch, computed, nextTick, onMounted } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
@@ -40,34 +68,6 @@ const scrollToId = (id) => {
   }
 };
 </script>
-
-<template>
-  <div class="layout">
-
-    <h1 class="icon">Crescens</h1>
-
-    <nav>
-      <router-link v-for="navItem in navigation" :key="navItem.path" :to="navItem.path" class="nav-link">
-        {{ navItem.meta?.title || navItem.name }}
-      </router-link>
-    </nav>
-
-    <aside class="toc">
-      <div v-if="headers.length > 0">
-        <h4 style="margin-bottom: 0">Headers</h4>
-        <ul>
-          <li v-for="h in headers" :key="h.id" :class="h.level">
-            <a :href="'#' + h.id" @click.prevent="scrollToId(h.id)">{{ h.text }}</a>
-          </li>
-        </ul>
-      </div>
-    </aside>
-
-    <main ref="contentArea" class="content">
-      <router-view />
-    </main>
-  </div>
-</template>
 
 <style>
 .icon {
