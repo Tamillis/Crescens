@@ -4,9 +4,9 @@
         <p>You have a d4, 3d6's and a d8 to allocate</p>
 
         <div class="stat-selector-container">
-            <div v-for="stat in core.stats">
-                <label :for="'stat-selector-' + stat" class="capitalise">{{ stat }}</label>
-                <select :id="'stat-selector-' + stat" :value="data[stat]" @change="e => data[stat] = e.target.value">
+            <div v-for="(stat, key) in model">
+                <label :for="'stat-selector-' + key" class="capitalise">{{ key }}</label>
+                <select :id="'stat-selector-' + key" v-model="model[key]">
                     <option>d4</option>
                     <option>d6</option>
                     <option>d8</option>
@@ -22,25 +22,16 @@
 import { ref, watch } from 'vue';
 import core from '../assets/core.json';
 
-const data = ref({
-    strength: "d8",
-    agility: "d6",
-    perception: "d6",
-    intelligence: "d6",
-    spirit: "d4"
-});
+const model = defineModel({type: Object, required: true})
 
-watch(() => data.value.strength, checkManualStatValidity);
-watch(() => data.value.agility, checkManualStatValidity);
-watch(() => data.value.perception, checkManualStatValidity);
-watch(() => data.value.intelligence, checkManualStatValidity);
-watch(() => data.value.spirit, checkManualStatValidity);
+watch(model, checkManualStatValidity, { deep: true });
 
 const statSelectionErr = ref("");
+checkManualStatValidity();
 
 function checkManualStatValidity() {
-    let vals = Object.values(data.value);
-    if(vals.filter(v => v == "d4").length != 1 || vals.filter(v => v == "d6").length != 3 || vals.filter(v => v == "d8").length != 1) {
+    let vals = Object.values(model.value);
+    if (vals.filter(v => v == "d4").length != 1 || vals.filter(v => v == "d6").length != 3 || vals.filter(v => v == "d8").length != 1) {
         statSelectionErr.value = "Please select 1d4, 3d6 and 1d8";
     }
     else statSelectionErr.value = "";

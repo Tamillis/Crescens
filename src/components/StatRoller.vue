@@ -20,6 +20,8 @@
 import { ref } from 'vue';
 import core from '../assets/core.json';
 
+const model = defineModel({type: Object, required: true});
+
 let diceRoll = () => Math.floor(Math.random() * 6) + 1;
 const rollValueMap = ["d4", "d4", "d6", "d6", "d8", "d8"];
 
@@ -35,8 +37,11 @@ function swap(stat) {
 
         selectedResult.value = clickedResult.value;
         selectedResult.statValue = clickedResult.statValue;
+        model.value[selectedResult.stat] = selectedResult.statValue;
         clickedResult.value = tempValue;
         clickedResult.statValue = tempStatValue;
+        model.value[clickedResult.stat] = clickedResult.statValue;
+
 
         swapSelected.value = "";
     }
@@ -50,6 +55,7 @@ function rollResults() {
     results.value = [];
     for (let stat of core.stats) {
         let roll = diceRoll();
+        model.value[stat] = rollValueMap[roll - 1];
         results.value.push({
             value: roll,
             stat: stat,
