@@ -18,11 +18,11 @@ At the start of each Round:
 4. Resolve un-engaged actions (such as Ranged Attacks).
 5. Resolve Movement
 
-Within the fiction, this is all happening effectively 'at once'. When you think about it, most Actions can resolve simultaneously. Two characters swinging at each other do so, both potentially land hits, and both potentially collapse at the same moment - the GM narrates how one's hammer blow connects just as a dagger finds the gap in their armour.
+Within the narrative, this is all happening effectively 'at once'. When you think about it, most Actions can resolve simultaneously. Two characters swinging at each other do so, both potentially land hits, and both potentially collapse at the same moment - the GM narrates how one's hammer blow connects just as a dagger finds the gap in their armour.
 
 ### Hidden Enemy Actions
 
-Powerful or well-trained enemies may take **Hidden Actions**, their intentions kept secret until players have committed to their own Actions. The GM notes the Hidden Action privately. 
+Powerful or well-trained enemies may take **Hidden Actions**, their intentions kept secret until players have committed to their own Actions. The GM notes the Hidden Action privately.
 
 Players may attempt to **Read** a Hidden Action as their Action, making a Perception check against a TN set by the enemy's Stat and Skill in use. On a success, the Hidden Action is revealed to all other players before they finalise their decisions.
 

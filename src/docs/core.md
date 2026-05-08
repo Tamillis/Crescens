@@ -244,4 +244,3 @@ The following examples use core skills, but the same logic applies to custom ski
 - **Intimidate** with Intimidation and Strength - the threat of physical consequence, projecting menace through presence and capability. Alternatively, with Knowledge and Intelligence - the quiet revelation that you know something they would rather you did not.
 - **Convince** with Persuasion and Intelligence - arguing a case, appealing to reason, or making an emotional appeal through carefully chosen words. Alternatively, with Art and Agility a moving performance that shifts hearts rather than minds.
 - **Fathom** with Insight and Perception - reading a person's state of mind, discerning whether they are lying, and understanding what they actually want beneath what they say.
-

@@ -36,7 +36,7 @@
         },
         {
             "name": "Criminal",
-            "desc": "Operates in the gray area between legality and necessity; possesses knowledge of how locks, people, and systems fail.",
+            "desc": "Operates in the grey area between legality and necessity; possesses knowledge of how locks, people, and systems fail.",
             "skills": "Subterfuge, Deception",
             "equipment": "Dark practical clothing, lockpicks, weapon of debatable legality, medium sum of money, favor/debt note."
         },
@@ -59,7 +59,7 @@
             "equipment": "Costume/performance outfit, instrument or prop, practical clothes, small/medium sum of money, letter from admirer/patron."
         },
         {
-            "name": "Poor",
+            "name": "Destitute",
             "desc": "Grew up in a world not made for them; survived through wit, stubbornness, and the ability to make something from nothing.",
             "skills": "Subterfuge, Wilderness",
             "equipment": "Threadbare practical clothing, item of personal significance, almost no money, a debt owed to them."
