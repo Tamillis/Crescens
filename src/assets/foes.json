@@ -1,0 +1,917 @@
+{
+    "foes": [
+        {
+            "name": "Grunt",
+            "category": "Humanoids",
+            "flavour": "A nameless soldier, thug, or hired hand. Dangerous in numbers, fragile alone.",
+            "primary": {
+                "stat": "Strength",
+                "die": "d6"
+            },
+            "secondary": {
+                "stat": "Agility",
+                "die": "d6"
+            },
+            "skills": [
+                {
+                    "name": "Weaponry",
+                    "rank": 2
+                },
+                {
+                    "name": "Intimidation",
+                    "rank": 1
+                }
+            ],
+            "evasion": 3,
+            "limit": 10,
+            "armour": 1,
+            "attack": [
+                {
+                    "name": "Club",
+                    "damage": "d6"
+                }
+            ],
+            "abilities": []
+        },
+        {
+            "name": "Skulker",
+            "category": "Humanoids",
+            "flavour": "An assassin, thief, or spy. Strikes fast and from cover, avoids a fair fight.",
+            "primary": {
+                "stat": "Agility",
+                "die": "d8"
+            },
+            "secondary": {
+                "stat": "Perception",
+                "die": "d6"
+            },
+            "skills": [
+                {
+                    "name": "Subterfuge",
+                    "rank": 3
+                },
+                {
+                    "name": "Stealth",
+                    "rank": 2
+                }
+            ],
+            "evasion": 4,
+            "limit": 8,
+            "armour": 0,
+            "attack": [
+                {
+                    "name": "Knife",
+                    "damage": "d4+1"
+                }
+            ],
+            "abilities": [
+                "Backstab"
+            ]
+        },
+        {
+            "name": "Leader",
+            "category": "Humanoids",
+            "flavour": "A gang boss, military officer, or warlord. Makes every enemy around them more dangerous.",
+            "primary": {
+                "stat": "Strength",
+                "die": "d8"
+            },
+            "secondary": {
+                "stat": "Spirit",
+                "die": "d6"
+            },
+            "skills": [
+                {
+                    "name": "Weaponry",
+                    "rank": 3
+                },
+                {
+                    "name": "Intimidation",
+                    "rank": 2
+                },
+                {
+                    "name": "Insight",
+                    "rank": 1
+                }
+            ],
+            "evasion": 4,
+            "limit": 14,
+            "armour": 2,
+            "attack": [
+                {
+                    "name": "Sword",
+                    "damage": "d8"
+                }
+            ],
+            "abilities": [
+                "Commanding"
+            ]
+        },
+        {
+            "name": "Healer",
+            "category": "Humanoids",
+            "flavour": "A field medic, priest, or witch doctor. Keeps allies fighting longer than they should.",
+            "primary": {
+                "stat": "Spirit",
+                "die": "d8"
+            },
+            "secondary": {
+                "stat": "Intelligence",
+                "die": "d6"
+            },
+            "skills": [
+                {
+                    "name": "First Aid",
+                    "rank": 3
+                },
+                {
+                    "name": "Insight",
+                    "rank": 2
+                }
+            ],
+            "evasion": 3,
+            "limit": 8,
+            "armour": 0,
+            "attack": [
+                {
+                    "name": "Staff",
+                    "damage": "d6"
+                }
+            ],
+            "abilities": [
+                "Patch Up"
+            ]
+        },
+        {
+            "name": "Ranger",
+            "category": "Humanoids",
+            "flavour": "A sniper, archer, or scout. Dangerous at distance and hard to pin down.",
+            "primary": {
+                "stat": "Agility",
+                "die": "d8"
+            },
+            "secondary": {
+                "stat": "Perception",
+                "die": "d6"
+            },
+            "skills": [
+                {
+                    "name": "Shooting",
+                    "rank": 3
+                },
+                {
+                    "name": "Stealth",
+                    "rank": 2
+                }
+            ],
+            "evasion": 4,
+            "limit": 10,
+            "armour": 1,
+            "attack": [
+                {
+                    "name": "Longrange weapon (rifle, bow)",
+                    "damage": "d6"
+                }
+            ],
+            "abilities": [
+                "Volley"
+            ]
+        },
+        {
+            "name": "Caster",
+            "category": "Humanoids",
+            "flavour": "A sorcerer, hacker, or psion depending on the setting. Fragile but hits unlike anything else.",
+            "primary": {
+                "stat": "Intelligence",
+                "die": "d8"
+            },
+            "secondary": {
+                "stat": "Spirit",
+                "die": "d6"
+            },
+            "skills": [
+                {
+                    "name": "Logic",
+                    "rank": 3
+                },
+                {
+                    "name": "Knowledge",
+                    "rank": 2
+                }
+            ],
+            "evasion": 3,
+            "limit": 8,
+            "armour": 0,
+            "attack": [
+                {
+                    "name": "Spell",
+                    "damage": "d6 Force"
+                }
+            ],
+            "abilities": [
+                "Spellshield"
+            ]
+        },
+        {
+            "name": "Wolf",
+            "category": "Wild Animals",
+            "flavour": "Rarely alone. Fast, coordinated, and patient.",
+            "primary": {
+                "stat": "Agility",
+                "die": "d8"
+            },
+            "secondary": {
+                "stat": "Strength",
+                "die": "d6"
+            },
+            "skills": [
+                {
+                    "name": "Wilderness",
+                    "rank": 2
+                },
+                {
+                    "name": "Stealth",
+                    "rank": 2
+                }
+            ],
+            "evasion": 4,
+            "limit": 8,
+            "armour": 0,
+            "attack": [
+                {
+                    "name": "Bite",
+                    "damage": "d6"
+                }
+            ],
+            "abilities": [
+                "Pack Hunter"
+            ]
+        },
+        {
+            "name": "Bear",
+            "category": "Wild Animals",
+            "flavour": "Does not want a fight. Once it has one, it finishes it.",
+            "primary": {
+                "stat": "Strength",
+                "die": "d10"
+            },
+            "secondary": {
+                "stat": "Strength",
+                "die": "d8"
+            },
+            "skills": [
+                {
+                    "name": "Wilderness",
+                    "rank": 2
+                }
+            ],
+            "evasion": 4,
+            "limit": 18,
+            "armour": 1,
+            "attack": [
+                {
+                    "name": "Claws",
+                    "damage": "d8"
+                }
+            ],
+            "abilities": [
+                "Grapple"
+            ]
+        },
+        {
+            "name": "Giant Spider",
+            "category": "Wild Animals",
+            "flavour": "Patient, territorial, and venomous. Often encountered when it is already too late.",
+            "primary": {
+                "stat": "Agility",
+                "die": "d8"
+            },
+            "secondary": {
+                "stat": "Perception",
+                "die": "d6"
+            },
+            "skills": [
+                {
+                    "name": "Stealth",
+                    "rank": 3
+                },
+                {
+                    "name": "Wilderness",
+                    "rank": 1
+                }
+            ],
+            "evasion": 4,
+            "limit": 10,
+            "armour": 1,
+            "attack": [
+                {
+                    "name": "Bite",
+                    "damage": "d6 Poison"
+                }
+            ],
+            "abilities": [
+                "Web",
+                "Venomous"
+            ]
+        },
+        {
+            "name": "Dragon Hatchling",
+            "category": "Fantasy Creatures",
+            "flavour": "Young, arrogant, and already more dangerous than anything the players have fought.",
+            "primary": {
+                "stat": "Strength",
+                "die": "d10"
+            },
+            "secondary": {
+                "stat": "Agility",
+                "die": "d8"
+            },
+            "skills": [
+                {
+                    "name": "Intimidation",
+                    "rank": 3
+                },
+                {
+                    "name": "Wilderness",
+                    "rank": 2
+                }
+            ],
+            "evasion": 4,
+            "limit": 20,
+            "armour": 3,
+            "attack": [
+                {
+                    "name": "Claws",
+                    "damage": "d8"
+                },
+                {
+                    "name": "Breath",
+                    "damage": "d8 Fire"
+                }
+            ],
+            "abilities": [
+                "Frightful Presence",
+                "Breath Weapon"
+            ]
+        },
+        {
+            "name": "Troll",
+            "category": "Fantasy Creatures",
+            "flavour": "Massive, stupid, and nearly impossible to put down permanently without fire or acid.",
+            "primary": {
+                "stat": "Strength",
+                "die": "d12"
+            },
+            "secondary": {
+                "stat": "Strength",
+                "die": "d10"
+            },
+            "skills": [
+                {
+                    "name": "Wilderness",
+                    "rank": 1
+                }
+            ],
+            "evasion": 3,
+            "limit": 24,
+            "armour": 2,
+            "attack": [
+                {
+                    "name": "Fist",
+                    "damage": "d10"
+                }
+            ],
+            "abilities": [
+                "Regeneration",
+                "Hulking"
+            ]
+        },
+        {
+            "name": "Security Bot",
+            "category": "Sci-Fi Creatures",
+            "flavour": "Tireless, humourless, and entirely indifferent to your reasons for being here.",
+            "primary": {
+                "stat": "Strength",
+                "die": "d8"
+            },
+            "secondary": {
+                "stat": "Perception",
+                "die": "d8"
+            },
+            "skills": [
+                {
+                    "name": "Shooting",
+                    "rank": 3
+                },
+                {
+                    "name": "Logic",
+                    "rank": 2
+                }
+            ],
+            "evasion": 4,
+            "limit": 16,
+            "armour": 3,
+            "attack": [
+                {
+                    "name": "Pulse Rifle",
+                    "damage": "d8"
+                }
+            ],
+            "abilities": [
+                "Threat Assessment",
+                "Immune to Psychic"
+            ]
+        },
+        {
+            "name": "Alien Predator",
+            "category": "Sci-Fi Creatures",
+            "flavour": "It has been hunting longer than your civilisation has existed. It is very good at it.",
+            "primary": {
+                "stat": "Agility",
+                "die": "d10"
+            },
+            "secondary": {
+                "stat": "Perception",
+                "die": "d8"
+            },
+            "skills": [
+                {
+                    "name": "Stealth",
+                    "rank": 4
+                },
+                {
+                    "name": "Wilderness",
+                    "rank": 3
+                }
+            ],
+            "evasion": 5,
+            "limit": 14,
+            "armour": 2,
+            "attack": [
+                {
+                    "name": "Claws",
+                    "damage": "d8"
+                },
+                {
+                    "name": "Acid Spit",
+                    "damage": "d6 Acid"
+                }
+            ],
+            "abilities": [
+                "Chameleonic",
+                "Acid Blood"
+            ]
+        },
+        {
+            "name": "Legionary",
+            "category": "Historical",
+            "flavour": "Disciplined, well-equipped, and most dangerous when fighting alongside their unit.",
+            "primary": {
+                "stat": "Strength",
+                "die": "d8"
+            },
+            "secondary": {
+                "stat": "Agility",
+                "die": "d6"
+            },
+            "skills": [
+                {
+                    "name": "Weaponry",
+                    "rank": 3
+                },
+                {
+                    "name": "Intimidation",
+                    "rank": 1
+                }
+            ],
+            "evasion": 3,
+            "limit": 12,
+            "armour": 3,
+            "attack": [
+                {
+                    "name": "Gladius",
+                    "damage": "d6"
+                },
+                {
+                    "name": "Pilum",
+                    "damage": "d8"
+                }
+            ],
+            "abilities": [
+                "Shield Wall",
+                "Throw Pilum"
+            ]
+        },
+        {
+            "name": "Knight",
+            "category": "Historical",
+            "flavour": "A professional soldier at the peak of medieval warfare. Heavy, slow, and terrifying.",
+            "primary": {
+                "stat": "Strength",
+                "die": "d10"
+            },
+            "secondary": {
+                "stat": "Agility",
+                "die": "d6"
+            },
+            "skills": [
+                {
+                    "name": "Weaponry",
+                    "rank": 4
+                },
+                {
+                    "name": "Intimidation",
+                    "rank": 2
+                }
+            ],
+            "evasion": 3,
+            "limit": 16,
+            "armour": 4,
+            "attack": [
+                {
+                    "name": "Longsword",
+                    "damage": "d10"
+                }
+            ],
+            "abilities": [
+                "Mounted"
+            ]
+        },
+        {
+            "name": "Samurai",
+            "category": "Historical",
+            "flavour": "Fast, precise, and trained since childhood. Every movement is intentional.",
+            "primary": {
+                "stat": "Agility",
+                "die": "d10"
+            },
+            "secondary": {
+                "stat": "Strength",
+                "die": "d8"
+            },
+            "skills": [
+                {
+                    "name": "Weaponry",
+                    "rank": 4
+                },
+                {
+                    "name": "Insight",
+                    "rank": 2
+                }
+            ],
+            "evasion": 5,
+            "limit": 14,
+            "armour": 2,
+            "attack": [
+                {
+                    "name": "Katana",
+                    "damage": "d10"
+                }
+            ],
+            "abilities": [
+                "Iaijutsu",
+                "Deflect"
+            ]
+        },
+        {
+            "name": "Vampire",
+            "category": "Modern Myth",
+            "flavour": "Old, patient, and used to getting what it wants. Fights only when it has already won.",
+            "primary": {
+                "stat": "Agility",
+                "die": "d10"
+            },
+            "secondary": {
+                "stat": "Spirit",
+                "die": "d8"
+            },
+            "skills": [
+                {
+                    "name": "Charm",
+                    "rank": 3
+                },
+                {
+                    "name": "Stealth",
+                    "rank": 3
+                },
+                {
+                    "name": "Insight",
+                    "rank": 2
+                }
+            ],
+            "evasion": 5,
+            "limit": 18,
+            "armour": 0,
+            "attack": [
+                {
+                    "name": "Bite",
+                    "damage": "d8"
+                },
+                {
+                    "name": "Claws",
+                    "damage": "d6"
+                }
+            ],
+            "abilities": [
+                "Mesmerise",
+                "Mist Form",
+                "Sunlight Vulnerability"
+            ]
+        },
+        {
+            "name": "Werewolf",
+            "category": "Modern Myth",
+            "flavour": "Rage given flesh. There is a person in there somewhere, but not right now.",
+            "primary": {
+                "stat": "Strength",
+                "die": "d12"
+            },
+            "secondary": {
+                "stat": "Agility",
+                "die": "d10"
+            },
+            "skills": [
+                {
+                    "name": "Wilderness",
+                    "rank": 3
+                },
+                {
+                    "name": "Intimidation",
+                    "rank": 2
+                }
+            ],
+            "evasion": 5,
+            "limit": 22,
+            "armour": 1,
+            "attack": [
+                {
+                    "name": "Claws",
+                    "damage": "d10"
+                },
+                {
+                    "name": "Bite",
+                    "damage": "d8"
+                }
+            ],
+            "abilities": [
+                "Feral Rage",
+                "Silver Weakness",
+                "Infectious Bite"
+            ]
+        },
+        {
+            "name": "Angel",
+            "category": "Biblical",
+            "flavour": "Not kind. Not gentle. A weapon of divine will that has never once doubted its purpose.",
+            "primary": {
+                "stat": "Spirit",
+                "die": "d12"
+            },
+            "secondary": {
+                "stat": "Strength",
+                "die": "d10"
+            },
+            "skills": [
+                {
+                    "name": "Intimidation",
+                    "rank": 3
+                },
+                {
+                    "name": "Insight",
+                    "rank": 3
+                }
+            ],
+            "evasion": 6,
+            "limit": 24,
+            "armour": 4,
+            "attack": [
+                {
+                    "name": "Flaming Sword",
+                    "damage": "d10 Fire"
+                }
+            ],
+            "abilities": [
+                "Divine Radiance",
+                "Celestial"
+            ]
+        },
+        {
+            "name": "Demon",
+            "category": "Biblical",
+            "flavour": "Pure appetite and violence. It does not negotiate. It does not stop.",
+            "primary": {
+                "stat": "Strength",
+                "die": "d12"
+            },
+            "secondary": {
+                "stat": "Agility",
+                "die": "d10"
+            },
+            "skills": [
+                {
+                    "name": "Intimidation",
+                    "rank": 4
+                },
+                {
+                    "name": "Stealth",
+                    "rank": 2
+                }
+            ],
+            "evasion": 5,
+            "limit": 26,
+            "armour": 3,
+            "attack": [
+                {
+                    "name": "Claws",
+                    "damage": "d10"
+                },
+                {
+                    "name": "Bite",
+                    "damage": "d12"
+                }
+            ],
+            "abilities": [
+                "Terrifying Form",
+                "Unholy Resilience"
+            ]
+        },
+        {
+            "name": "Devil",
+            "category": "Biblical",
+            "flavour": "Charming, precise, and always three steps ahead. It wants something from you specifically.",
+            "primary": {
+                "stat": "Intelligence",
+                "die": "d12"
+            },
+            "secondary": {
+                "stat": "Spirit",
+                "die": "d10"
+            },
+            "skills": [
+                {
+                    "name": "Insight",
+                    "rank": 4
+                },
+                {
+                    "name": "Persuasion",
+                    "rank": 4
+                },
+                {
+                    "name": "Deception",
+                    "rank": 3
+                }
+            ],
+            "evasion": 5,
+            "limit": 20,
+            "armour": 2,
+            "attack": [
+                {
+                    "name": "Contract",
+                    "damage": "d8 Psychic"
+                }
+            ],
+            "abilities": [
+                "Silver Tongue",
+                "Binding Contract"
+            ]
+        }
+    ],
+    "abilities": [
+        {
+            "name": "Backstab",
+            "description": "Deals +2 damage ranks when attacking a target that is unaware or engaged with another combatant."
+        },
+        {
+            "name": "Commanding",
+            "description": "Adjacent allies gain an Advantage on attacks."
+        },
+        {
+            "name": "Patch Up",
+            "description": "As a Bonus Action, remove 1 Injury Rank from an adjacent ally."
+        },
+        {
+            "name": "Spellshield",
+            "description": "May use Intelligence for Evasion instead of Agility."
+        },
+        {
+            "name": "Volley",
+            "description": "May attack two targets in the same round as one Action, splitting the attack between both at one Disadvantage each."
+        },
+        {
+            "name": "Pack Hunter",
+            "description": "When two or more Wolves attack the same target in a round, each gains an Advantage."
+        },
+        {
+            "name": "Grapple",
+            "description": "On a hit, may immediately attempt a Grapple as a Bonus Action using Strength d10."
+        },
+        {
+            "name": "Web",
+            "description": "As an Action, may attempt to Immobilise a target in Short range. Target rolls Agility vs TN 6 or becomes Immobilised until they break free."
+        },
+        {
+            "name": "Venomous",
+            "description": "On a hit, the target must roll Strength vs TN 6 or gain a Poison Injury of rank 2 at the end of the round."
+        },
+        {
+            "name": "Frightful Presence",
+            "description": "Any character who takes damage from this creature must roll Spirit vs TN 6 or gain the Frightened condition until the end of their next round."
+        },
+        {
+            "name": "Breath Weapon",
+            "description": "Once per fight, may breathe fire in a cone hitting all targets in Short range. Each target rolls Agility vs TN 8 or takes d8 Fire damage."
+        },
+        {
+            "name": "Regeneration",
+            "description": "At the end of each round, reduces its highest Injury rank by 1. Fire and Acid damage cannot be regenerated."
+        },
+        {
+            "name": "Hulking",
+            "description": "May target two adjacent enemies with a single Attack Action."
+        },
+        {
+            "name": "Threat Assessment",
+            "description": "Attacks ignore 1 point of Evasion against targets already hit this fight."
+        },
+        {
+            "name": "Immune to Psychic",
+            "description": "Cannot be affected by mind-altering abilities or conditions."
+        },
+        {
+            "name": "Chameleonic",
+            "description": "Is Hidden at the start of combat and whenever it moves without attacking."
+        },
+        {
+            "name": "Acid Blood",
+            "description": "Any character who deals a melee hit to this creature takes d4 Acid damage."
+        },
+        {
+            "name": "Shield Wall",
+            "description": "When adjacent to another Legionary, both gain +1 Armour and an Advantage on Defend actions."
+        },
+        {
+            "name": "Throw Pilum",
+            "description": "Once per fight, may throw their pilum at a target in Short range as a Bonus Action."
+        },
+        {
+            "name": "Mounted",
+            "description": "The Unstable condition is removed when fighting from horseback, and gains +1 damage when charging."
+        },
+        {
+            "name": "Iaijutsu",
+            "description": "Once per fight, may make a surprise attack at the start of combat before any other actions are declared, dealing +2 damage ranks."
+        },
+        {
+            "name": "Deflect",
+            "description": "May use Agility for their Defend action, deflecting attacks with their blade."
+        },
+        {
+            "name": "Mesmerise",
+            "description": "As an Action, targets one character in Short range. That character rolls Spirit vs TN 8 or gains the Charmed condition until they take damage."
+        },
+        {
+            "name": "Mist Form",
+            "description": "Once per fight, may become incorporeal as a Bonus Action, avoiding one attack entirely."
+        },
+        {
+            "name": "Sunlight Vulnerability",
+            "description": "In direct sunlight, has a Disadvantage on all rolls and cannot use Mist Form."
+        },
+        {
+            "name": "Silver Weakness",
+            "description": "Silver weapons deal +2 damage ranks and bypass natural armour."
+        },
+        {
+            "name": "Feral Rage",
+            "description": "When this creature takes damage of rank 3 or higher, it immediately makes a free attack against the attacker."
+        },
+        {
+            "name": "Infectious Bite",
+            "description": "A character reduced to their Limit by this creature's bite must make a Spirit roll vs TN 8 at next Rest or begin an unwanted transformation. GM's discretion on consequences."
+        },
+        {
+            "name": "Divine Radiance",
+            "description": "Once per fight as an Action, may blind all enemies in Short range. Targets roll Spirit vs TN 10 or gain the Blinded condition for one round."
+        },
+        {
+            "name": "Celestial",
+            "description": "Immune to Poison and Psychic damage."
+        },
+        {
+            "name": "Terrifying Form",
+            "description": "Any character who begins their first round in combat with this creature must roll Spirit vs TN 8 or gain the Frightened condition."
+        },
+        {
+            "name": "Unholy Resilience",
+            "description": "Reduces all incoming damage by 1 to a minimum of 1, except from holy or silver sources."
+        },
+        {
+            "name": "Silver Tongue",
+            "description": "May use Deception or Persuasion as an attack, dealing Psychic damage on a failed Spirit roll vs TN equal to its skill rank + 4."
+        },
+        {
+            "name": "Binding Contract",
+            "description": "Once per fight, may offer a target a bargain. If accepted, the target gains a temporary benefit but suffers a Rank 3 Psychic Injury at the start of each subsequent fight until the contract is fulfilled."
+        }
+    ]
+}

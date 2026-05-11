@@ -219,16 +219,36 @@ If a Hidden Action is part of an Ability, it should say so.
 
 Not all Hidden Action capable NPC actions need to be Hidden either, use it as another tool.
 
-## Planning a Game
+## Progression
+Progression in Crescens is narrative driven, as described in the Core mechanics. Players will describe what Stat / Skills / Power they have "In Training", and it's your job to be aware of when that should be rewarded, based on how much character action the player invests in that training. If not already clear, have a brief conversation about what that looks like. The training should be visible at the table, even if only in passing description.
 
-Campaign
+> Viking Harl is training Strength, wanting to get his average d6 to a more impressive d8. As the group adventures, his player describes how, every evening and on quiet days, Harl is finding and hauling, lifting and throwing big rocks, logs and even bystanders. After several in-game weeks of this Sandy, the GM, rewards Harl with a Strength Stat Increase.
 
-Pacing
+You may wish to have several different things In-Training per character, something short, medium and long in scope. Multiple Powers can be in training simultaneously at different intensities, which is encouraged. A character might be slowly building toward a major combat Power over months of play while picking up a Skill Increase after a single intensive downtime.
 
-Session
-
-Scene
-
-## Running a Scene
+### Pacing
+Pacing is a discussion to have at the beginning as a table. Determine as a group, do you want a break-neck campaign, something slow and steady? Do you want characters to earn progression as individuals, or stick to group-based so-called 'milestone' progression? Is the table happy to have progression almost like loot, or should it always feel hard-earned? The setting and tone of your game will help you all decide this.
 
 ## Hazards and Environmental Damage
+Not all damage comes from enemies. Falls, fire, poison, extreme cold, crushing pressure, and a hundred other hazards exist depending on the setting. Like any damage, it generates an Injury. Assign the damage as the rank and record an appropriate descriptor. It can then be recovered in the same way.
+
+Ongoing sources of damage, such as burning, might be applied as damage-per-round, but in Crescens guaranteed damage a round will add up quickly. You should probably tie in a Roll to avoid the damage per round.
+
+**Burning** - a TN 6 (adjust depending on the intensity of the flame) Roll or taking d4 damage at the end of every Round. An Action can be used to extinguish the fire for the same TN.
+
+Remember, you can have environmental damage affect combat directly. A room full of smoke from burning could impose a Disadvantage on concentration-heavy actions. A flooded corridor can be Difficult Terrain halving movement. Poisining a foe should grant attackers an Advantage to hit them.
+
+Example Hazards:
+
+| Hazard | Suggested Damage |
+|---|---|
+| Short fall (one storey) | d4 Bludgeoning |
+| Long fall (several storeys) | d4+2 Bludgeoning |
+| Terminal-speed fall | d6+4, almost certainly instant death |
+| Fire | d4 Burning |
+| Conflagration | d8 Burning |
+| Poison (mild) | d4 Poison, delayed |
+| Poison (severe) | d8 Poison, potentially Fatal |
+| Extreme cold | d4 Cold per extended period |
+| Crushing / cave-in | d6 to d12 Bludgeoning |
+| Vacuum / drowning | d4 per round, escalating |
