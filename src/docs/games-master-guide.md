@@ -1,5 +1,5 @@
 # Game Master's Guide
-This is a document to help you, the Game Master, run a game of Crescens, including all the tools to do so that a player doesn't need, and so is not found in the Core.
+This is a document to help you, the Game Master, run a game of Crescens. This games masters guide will not include the general advice that has already been written a hundred times and better across many blogs, videos and essays on the internet and elsewhere for running a TTRPG, planning session, curating a scene and creating a world. This games masters guide will contain the information that you need to run a game of Crescens and any other areas of games mastering where the mechanics of Crescens make themselves known.
 
 ## Running the Game
 The GM's job is to facilitate the story being told. You are the stage, the props, and all the supporting cast. You frame scenes, call for rolls, and keep things moving. You are running a world that reacts honestly to their choices. Together with your Players, you make up The Table.
