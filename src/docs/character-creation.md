@@ -109,6 +109,7 @@ Some Powers list core skills as prerequisites. If a character has a custom skill
 | **Armour Expert** | None | While wearing armour, gain +1 to your Evasion. |
 | **Artisan Expert** | Crafting 3 | Once per scene, you may spend 10 minutes on a Crafting or Knowledge (Engineering) roll to automatically treat the result as your die's maximum value. |
 | **Blind Fighting** | Perception d8, Insight 3 | Within Close Range you sense anything not behind total cover, ignore the effects of darkness and obscuration, and cannot be surprised. |
+| **Bulwark** | Spirit d6 | Once per Fight, as a Bonus Action, you shout at all foes within Melee range, making your prescence no the battlefield demand attention. This Round, if they attack anyone other than you, they do so at a Disadvantage. |
 | **Camouflage** | Stealth 3 | As a Bonus Action, if you press yourself against a solid surface or go prone and hold still, you gain an Advantage on Stealth rolls for as long as you remain motionless. |
 | **Cursed** | None | When you roll the lowest result on any d6 or greater, gain a Token of Misfortune. Spend a Token as a Bonus Action to turn an enemy's success into a failure. Tokens reset after a Rest. |
 | **Danger Sense** | Perception d6 | You gain an Advantage on rolls to avoid visible effects (traps, visible attacks) provided you are not Incapacitated. |

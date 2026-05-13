@@ -1,24 +1,28 @@
 # Crescens Combat
 
-Combat in Crescens is meant to feel dramatic, dangerous, and snappy. Characters feel each blow thanks to the Injuries system, adding drama and danger: and Death is always a possibility, but distinct from being Knocked Out of the fight. One can be Out but not Unconscious, Dying but not Out, and Unconscious without necessarily Dying - and every fight has the possibility of consequences thanks to Lasting Injuries. One Action Rounds mean combat is a fast and fluid affair at the table where each character takes only one action and players are constantly engaged with what is happening and each other.
+Combat in Crescens is meant to feel both dramatic and dangerous while still being snappy. Death is always a risk, and every injury is felt. Some are even Lasting.
 
 ## Rounds
 
-Combat is played out in **Rounds**, of roughly five seconds. Every character in a Round has one **Action**. If a character has access to any, a character can also take one **Bonus Action** per Round. 
+Combat is played out in **Rounds**, of roughly five seconds. Every character in a Round has one **Action**. If a character has access to any, a character can also take one **Bonus Action** per Round.
 
-All characters act simultaneously and there is no turn-order based initiative system. Players resolve action dynamically at the table by resolving **Engagements**.
+All characters act simultaneously and there is no turn-order based initiative system or reaction system. Players resolve action dynamically at the table by resolving **Engagements**, naturally reacting the evolving situation.
 
-### How a Round Works
+When you think about it, most Actions can be resolved simultaneously. Two characters swinging at each other do so, both potentially land hits, and both potentially collapse at the same moment - the GM narrates how one's hammer blow connects just as a dagger finds the gap in their armour.
 
-At the start of each Round:
+### Round breakdown
 
-1. The GM declares the intentions and targets of all enemies in the scene. Some special enemies may have **Hidden Actions** (see below) but most opponents telegraph what they are about to do, just as their body language and positioning would in reality: letting Players decide how to act.
+The steps of a Round are:
+
+1. The GM declares the intentions and targets of all enemies in the scene*. Most opponents telegraph what they are about to do with their body language and positioning.
 2. Players discuss among themselves and declare their Actions: thus determining Engagements (see below).
 3. Resolve the Engagements in order of whichever players are ready and willing.
 4. Resolve un-engaged actions (such as Ranged Attacks).
 5. Resolve Movement
 
-Within the narrative, this is all happening effectively 'at once'. When you think about it, most Actions can resolve simultaneously. Two characters swinging at each other do so, both potentially land hits, and both potentially collapse at the same moment - the GM narrates how one's hammer blow connects just as a dagger finds the gap in their armour.
+*Some special enemies may have **Hidden Actions** (see below)
+
+However these steps are all happening effectively 'at once' within the flow of the fiction being told. It's not strictly that melee happens before ranged, which happens before movement. If a different series of action resolution makes more sense, go with that.
 
 ### Hidden Enemy Actions
 
@@ -190,7 +194,17 @@ Reference the Damage table for that Damage Type for ideas for Injury descriptors
 | 5 | Necrotised flesh |
 | 6+ | Shattered ice |
 
-#### LIGHTNING, DARK, LIGHT
+#### Lightning
+| Damage | Descriptor |
+|---|---|
+| 1 | Static shocks|
+| 2 | Powerful jolts |
+| 3 | Appendage spasms |
+| 4 | Internal burns and scarring |
+| 5 | Debilitating continuous fits |
+| 6+ | Cooked organs |
+
+#### DARK, LIGHT
 *WIP* - adding one each time I edit this doc
 
 ### Targeting Unarmoured Locations
@@ -241,7 +255,7 @@ Knocked Out characters are not necessarily Unconscious; they are simply out of t
 
 Other Powers and effects may cause a character to become Unconsciouss - unable to participate in the fight anymore without necessarily being at or over their limit, or dying.
 
-## Fatal Injuries and Death Rolls 
+## Fatal Injuries and Death Rolls
 
 When a character suffers an Injury of rank 4 or greater, wounds that could kill if left unaddressed, the GM should consider marking it as **Fatal**.
 
@@ -263,6 +277,51 @@ Having at least one Fatal Injury means the character is **Dying** - i.e. making 
 As such, it is possible for a character to be Dying without being Knocked Out, or Knocked Out without Dying. This also does not necessarily correspond to being Unconscious either.
 
 A Dying character may still act, still fight, still drag themselves toward the door - but they are on a clock, and the clock is the wound itself getting worse.
+
+
+## Example Combat
+Rayceon the Guardian, Infala the Witch, Heckleberry Fan the Thief and Jaen the Archer are fighting 5 goblins. 
+
+### Rayceon
+**Stats**: Str d8, Agi d4, Per d6, Int d6, Spi d6
+
+**Skills**: First Aid II, Logic II, Weaponry II, Animal Handling I, Persuasion I
+
+**Powers**: Armour Expert, Bulwark
+
+### Heckleberry
+**Stats**:
+
+**Skills**:
+
+**Powers**:
+
+### Infala
+**Stats**:
+
+**Skills**:
+
+**Powers**:
+
+### Jaen
+**Stats**:
+
+**Skills**:
+
+**Powers**:
+
+The GM places five tokens representing the goblin gang on a map roughly locating them around the giant pit trap they've collectively fallen into. The GM describes how its a half move to get into the pit, and the with the climb taking double movement, a whole move and roll to climb out the slick slopes.
+
+### Round 1
+The GM describes how the Goblins are preparing to act; two are jumping down into the pit to engage the group at melee range. Two are about to lob stones, one at Heckleberry and one at Infala, and the last, who seems to have better quality armour and is the biggest of them all, seems to be patiently waiting, concealing their intent in a Hidden Action.
+
+Rayceon's player says they'll take the two melee goblins on in melee once they're down in the pit with them, and instead will use his action to Discern the Hidden Action of the lead goblin. Heckleberry says he'll use his Action to try and dodge out of the way of the incoming missile, Defending. Infala says she will use her magic wand to fire a bolt of fire at the one throwing a stone at her. Lastly Jaen says she draws her twin swords and Moves forward to engage the melee goblins alongside Rayceon, forming a line in-front of her more vulnerable allies. By Moving, her player says, she will intercept as they come down, stopping them from being in Melee with Infala or Heckleberry.
+
+The GM has Rayceon's player resolve his Discern Action first, saying the TN is 4. The lead goblin isn't *that* capable at hiding their intentions. Rayceon rolls his Perception, a d6, and says he's using his Logic Skill of +2, trying to predict what the goblin leader would do if he were him. The GM accepts, and Rayceon's player rolls. He gets a 6 total, succeeding. The GM shares that the lead goblin was evaluating everyone's positions, readying to direct their fellow goblins, allowing 1 to take a Bonus Action to make an extra Attack using their Command ability.
+
+As no-one is in Melee quite yet, there are no Engagements to resolve.
+
+Rayceon's player says he wants to use his Bulwark power, which involves no rolls. The GM describes how only the two approaching goblins who're about to be in Melee will be affected. Heckleberry describes how he Dodges using Agility and Deception, faking out where he'll dive to to avoid incoming missiles. He rolls a d8 for his Agility, and adds +3 with the GM's approval. He gets 10, easily replacing his normal Evasion of 4.
 
 ### Lasting Injuries
 When a character is Knocked Out, they gain a Lasting Injury. Roll on the table below after a fight has finished (only once, no matter how many times they get Knocked Out).

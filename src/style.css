@@ -7,6 +7,7 @@
   --accent: #001d5c;
   --accent-border: rgb(0, 2, 94);
 
+  --serif: lucida, serif;
   --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
   --mono: ui-monospace, Consolas, monospace;
 
@@ -56,6 +57,9 @@ blockquote {
 
 blockquote p {
   margin: 0;
+  padding: 0 1rem;
+  font-size: 0.9em;
+  font-family: --serif;
 }
 
 li {

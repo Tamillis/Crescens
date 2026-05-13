@@ -198,7 +198,7 @@ Crescens Combat details the steps of a round:
 
 As GM, you begin each round by describing what each enemy combatant is about to do; "the sorcerer aims a fire bolt at Carolinus", "the dirt bike gang (horde) race for the goal", etc.
 
-Your other main role is to help determine Engagements, and then resolve them with whichever players are ready to go. Use Opposed Agility Rolls if speed is a matter of question, to determine "who goes first" impartially.
+Your other main role is to help determine Engagements, and then resolve them with whichever players are ready to go. Use Opposed Agility Rolls (or appropriate) to determine who goes first if speed is a matter of question.
 
 ### Resolving Hidden Actions
 Certain capable NPCs will be able to use Hidden Actions: enemies who are genuinely deceptive, trained to conceal intent, or whose nature makes them unreadable. Some Hidden Actions will be tied to certain abilities, other powerful NPCs have all their Actions Hidden by default.
