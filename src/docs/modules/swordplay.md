@@ -1,4 +1,4 @@
-# Module: Swordplay
+# Swordplay
 
 A module for grounded martial combat. Compatible with any Crescens setting where personal weapons and armour are the primary tools of violence: historical, fantasy, or otherwise.
 

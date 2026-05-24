@@ -1,3 +1,5 @@
+# Weird Suburbia
+
 ## Age
 In Weird Suburbia, Age replaces Ancestry. Before character creation, the group should discuss this together with their GM:
 
@@ -18,7 +20,7 @@ Teens use standard character creation with no Stat restrictions. They are physic
 Only if your GM has said yes.
 Adults use standard character creation. They have no fortune reroll and no bonus skill rank. What they have is access: to cars, to money, to being listened to. They do not get a Weird Power slot at character creation - the world stopped whispering to them some time ago. They may train into one through play, if the fiction earns it.
 
-## Stats and Skills
+## Suburban Skills
 
 Stats are unchanged.
 

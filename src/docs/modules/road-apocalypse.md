@@ -1,4 +1,4 @@
-# Module: Road Apocalypse
+# Road Apocalypse
 
 This is a Crescens module to play games set in a "Road Apocalypse"; where the world has ground down, dried out, and burned up over generations of neglect, abuse and greed until that was left was the road, the sun, and whoever was tough enough to still be moving. Water is worth more than blood, fuel is power, and your name (if you've earned one) travels faster than you do. Road Apocalypse is for games set in the wasteland: rust-plated, dust-choked, and furious to be left in a burnt up world.
 

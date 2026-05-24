@@ -35,7 +35,6 @@
 
 <script setup>
 import magicPowers from '../assets/magic-powers.json';
-import magicPowersText from '../docs/magic.md';
 import { ref, computed, onMounted } from 'vue';
 
 </script>

@@ -1,4 +1,4 @@
-# Module: Magic
+# Magic
 
 This is a magic module for Crescens, providing rules and Powers that enable fantasy magic.
 

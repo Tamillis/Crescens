@@ -3,11 +3,29 @@
 
     <h1 class="icon">Crescens</h1>
 
-    <nav>
-      <router-link v-for="navItem in navigation" :key="navItem.path" :to="navItem.path" class="nav-link">
-        {{ navItem.meta?.title || navItem.name }}
-      </router-link>
-    </nav>
+    <div>
+      <nav>
+        <a class="nav-link" disabled style="cursor: default;">Core:</a>
+        <router-link v-for="navItem in navigation.filter(ni => ni.meta.group == 'core')" :key="navItem.path"
+          :to="navItem.path" class="nav-link">
+          {{ navItem.meta.title }}
+        </router-link>
+      </nav>
+      <nav>
+        <a class="nav-link" disabled style="cursor: default;">Modules:</a>
+        <router-link v-for="navItem in navigation.filter(ni => ni.meta.group == 'modules')" :key="navItem.path"
+          :to="navItem.path" class="nav-link">
+          {{ navItem.meta.title }}
+        </router-link>
+      </nav>
+      <nav>
+        <a class="nav-link" disabled style="cursor: default;">Utilities:</a>
+        <router-link v-for="navItem in navigation.filter(ni => ni.meta.group != 'modules' && ni.meta.group != 'core')"
+          :key="navItem.path" :to="navItem.path" class="nav-link">
+          {{ navItem.meta.title }}
+        </router-link>
+      </nav>
+    </div>
 
     <aside class="toc">
       <div v-if="headers.length > 0">
