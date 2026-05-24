@@ -100,5 +100,162 @@
             "skills": "Wilderness, Animal Handling",
             "equipment": "Practical travelling clothes, bedroll, week of rations, optimistic map, small sum of money, memento."
         }
+    ],
+    "powers": [
+        {
+            "name": "Action Surge",
+            "preq": "",
+            "desc": "Once per Fight, you can push past your limits. You may take one additional Action this Round."
+        },
+        {
+            "name": "Armour Expert",
+            "preq": "",
+            "desc": "While wearing armour, gain +1 to your Evasion."
+        },
+        {
+            "name": "Artisan Expert",
+            "preq": "Crafting 3",
+            "desc": "Once per scene, you may spend 10 minutes on a Crafting or Knowledge (Engineering) roll to automatically treat the result as your die's maximum value."
+        },
+        {
+            "name": "Blind Fighting",
+            "preq": "Perception d8, Insight 3",
+            "desc": "Within Close Range you sense anything not behind total cover, ignore the effects of darkness and obscuration, and cannot be surprised."
+        },
+        {
+            "name": "Bulwark",
+            "preq": "Spirit d6",
+            "desc": "Once per Fight, as a Bonus Action, you shout at all foes within Melee range, making your presence on the battlefield demand attention. This Round, if they attack anyone other than you, they do so at a Disadvantage."
+        },
+        {
+            "name": "Camouflage",
+            "preq": "Stealth 3",
+            "desc": "As a Bonus Action, if you press yourself against a solid surface or go prone and hold still, you gain an Advantage on Stealth rolls for as long as you remain motionless."
+        },
+        {
+            "name": "Cursed",
+            "preq": "",
+            "desc": "When you roll the lowest result on any d6 or greater, gain a Token of Misfortune. Spend a Token as a Bonus Action to turn an enemy's success into a failure. Tokens reset after a Rest."
+        },
+        {
+            "name": "Danger Sense",
+            "preq": "Perception d6",
+            "desc": "You gain an Advantage on rolls to avoid visible effects (traps, visible attacks) provided you are not Incapacitated."
+        },
+        {
+            "name": "Explorer",
+            "preq": "Perception d6",
+            "desc": "You ignore difficult terrain. When in wilderness, your first attack each Fight gains an Advantage, you cannot be surprised, and when scavenging you find twice the resources."
+        },
+        {
+            "name": "Foresight",
+            "preq": "Perception d6",
+            "desc": "Use your Perception die for Evasion rolls instead of Agility, observing attack-patterns."
+        },
+        {
+            "name": "Fortitude",
+            "preq": "Strength d6",
+            "desc": "Your Knock Out threshold increases by your Strength Max. You can repeat this Power."
+        },
+        {
+            "name": "Improved Recovery",
+            "preq": "Spirit d6",
+            "desc": "After a Rest, you may recover a total of 5 Injury ranks distributed however you choose, up to 2 ranks per Injury."
+        },
+        {
+            "name": "Inspiration",
+            "preq": "Spirit d6",
+            "desc": "Once per Fight, as a Bonus Action, you can inspire an ally that can see you. That ally gains an Advantage on their next roll."
+        },
+        {
+            "name": "Inspiring Orator",
+            "preq": "Spirit d6, Persuasion 3",
+            "desc": "After 10 minutes addressing up to six characters, each gains a bonus to their Knock Out threshold equal to your Spirit Average until their next Rest."
+        },
+        {
+            "name": "Jack of All Trades",
+            "preq": "",
+            "desc": "When making a roll for a skill you have no ranks in, you may add 1 to the result."
+        },
+        {
+            "name": "Keen Senses",
+            "preq": "",
+            "desc": "Choose one sense (sight, hearing, etc.). Rolls relying on that sense gain an Advantage. Can be taken multiple times, once for each sense."
+        },
+        {
+            "name": "Learned",
+            "preq": "",
+            "desc": "When you make a Knowledge roll, do so at an Advantage."
+        },
+        {
+            "name": "Linguist",
+            "preq": "",
+            "desc": "You speak and read an additional language fluently. This Power can be taken multiple times, once per language."
+        },
+        {
+            "name": "Lucky",
+            "preq": "",
+            "desc": "Once per Fight, when you roll the lowest result on any d6 or greater, you may reroll it and must use the new result."
+        },
+        {
+            "name": "Martial Arts",
+            "preq": "Agility d6, Martial Arts 3",
+            "desc": "Use Agility instead of Strength for unarmed/light weapon attacks. You can chain one unarmed strike as a Bonus Action if you hit with a melee Martial Arts Attack."
+        },
+        {
+            "name": "Night Vision",
+            "preq": "Perception d6",
+            "desc": "You can see clearly in low light and dim conditions. You treat total darkness as heavily obscured rather than blinding."
+        },
+        {
+            "name": "Nimble",
+            "preq": "Agility d6",
+            "desc": "You can move through spaces occupied by hostile characters freely. You gain an Advantage on rolls to escape a Grapple and on rolls to Grapple others."
+        },
+        {
+            "name": "Prediction",
+            "preq": "Intelligence d6",
+            "desc": "Use your Intelligence die for Evasion rolls instead of Agility, predicting attacks."
+        },
+        {
+            "name": "Second Wind",
+            "preq": "Spirit d6",
+            "desc": "At the end of a fight, reduce 1 Injury gained in that fight by 1 Rank."
+        },
+        {
+            "name": "Spirited",
+            "preq": "Spirit d6",
+            "desc": "Your Knock Out threshold increases by your Spirit Max. You can repeat this Power."
+        },
+        {
+            "name": "Swift",
+            "preq": "Agility d6",
+            "desc": "Your Move increases to 45ft."
+        },
+        {
+            "name": "Telepathy",
+            "preq": "Spirit d8, Insight 3",
+            "desc": "You can communicate silently with any willing character you can see in your language of choice. You may also attempt to read surface thoughts of an unwilling character as an Action. Make an Opposed Spirit Roll to succeed."
+        },
+        {
+            "name": "Toughness",
+            "preq": "Strength d6",
+            "desc": "Use your Strength die for Evasion rolls instead of Agility, toughing-out blows."
+        },
+        {
+            "name": "Unhindered Movement",
+            "preq": "Agility d6",
+            "desc": "If not Encumbered, you traverse vertical surfaces and liquids without falling/sinking if you start/end on solid ground."
+        },
+        {
+            "name": "Waterborne",
+            "preq": "",
+            "desc": "Swimming does not reduce your Movement. You can hold your breath for up to 10 minutes."
+        },
+        {
+            "name": "Willpower",
+            "preq": "Spirit d6",
+            "desc": "Use your Spirit die for Evasion rolls instead of Agility, putting mind over matter."
+        }
     ]
 }

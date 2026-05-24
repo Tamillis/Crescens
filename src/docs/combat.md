@@ -278,50 +278,14 @@ As such, it is possible for a character to be Dying without being Knocked Out, o
 
 A Dying character may still act, still fight, still drag themselves toward the door - but they are on a clock, and the clock is the wound itself getting worse.
 
-
 ## Example Combat
-Rayceon the Guardian, Infala the Witch, Heckleberry Fan the Thief and Jaen the Archer are fighting 5 goblins. 
+4 players and their GM are playing a simple game only utilising Core, where the player characters are 4 individuals investigating strange circumstances in the endless night of a nordic winter.
 
-### Rayceon
-**Stats**: Str d8, Agi d4, Per d6, Int d6, Spi d6
+They've chased clues to a quiet industrial estate, and the side door they've chosen for their approach yawns black, the inside truly dark. They step inside, but Casey trips on a forgotten pipe, making a loud clatter. A deep below echoes from within, and skittering sounds all along the walls and roof, even behind them. The GM says that combat is about to begin.
 
-**Skills**: First Aid II, Logic II, Weaponry II, Animal Handling I, Persuasion I
-
-**Powers**: Armour Expert, Bulwark
-
-### Heckleberry
-**Stats**:
-
-**Skills**:
-
-**Powers**:
-
-### Infala
-**Stats**:
-
-**Skills**:
-
-**Powers**:
-
-### Jaen
-**Stats**:
-
-**Skills**:
-
-**Powers**:
-
-The GM places five tokens representing the goblin gang on a map roughly locating them around the giant pit trap they've collectively fallen into. The GM describes how its a half move to get into the pit, and the with the climb taking double movement, a whole move and roll to climb out the slick slopes.
+The GM sets up the field.
 
 ### Round 1
-The GM describes how the Goblins are preparing to act; two are jumping down into the pit to engage the group at melee range. Two are about to lob stones, one at Heckleberry and one at Infala, and the last, who seems to have better quality armour and is the biggest of them all, seems to be patiently waiting, concealing their intent in a Hidden Action.
-
-Rayceon's player says they'll take the two melee goblins on in melee once they're down in the pit with them, and instead will use his action to Discern the Hidden Action of the lead goblin. Heckleberry says he'll use his Action to try and dodge out of the way of the incoming missile, Defending. Infala says she will use her magic wand to fire a bolt of fire at the one throwing a stone at her. Lastly Jaen says she draws her twin swords and Moves forward to engage the melee goblins alongside Rayceon, forming a line in-front of her more vulnerable allies. By Moving, her player says, she will intercept as they come down, stopping them from being in Melee with Infala or Heckleberry.
-
-The GM has Rayceon's player resolve his Discern Action first, saying the TN is 4. The lead goblin isn't *that* capable at hiding their intentions. Rayceon rolls his Perception, a d6, and says he's using his Logic Skill of +2, trying to predict what the goblin leader would do if he were him. The GM accepts, and Rayceon's player rolls. He gets a 6 total, succeeding. The GM shares that the lead goblin was evaluating everyone's positions, readying to direct their fellow goblins, allowing 1 to take a Bonus Action to make an extra Attack using their Command ability.
-
-As no-one is in Melee quite yet, there are no Engagements to resolve.
-
-Rayceon's player says he wants to use his Bulwark power, which involves no rolls. The GM describes how only the two approaching goblins who're about to be in Melee will be affected. Heckleberry describes how he Dodges using Agility and Deception, faking out where he'll dive to to avoid incoming missiles. He rolls a d8 for his Agility, and adds +3 with the GM's approval. He gets 10, easily replacing his normal Evasion of 4.
 
 ### Lasting Injuries
 When a character is Knocked Out, they gain a Lasting Injury. Roll on the table below after a fight has finished (only once, no matter how many times they get Knocked Out).

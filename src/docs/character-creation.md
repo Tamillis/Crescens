@@ -101,7 +101,7 @@ Some Powers list core skills as prerequisites. If a character has a custom skill
 
 > A character with a custom skill called "Street Fighting" might reasonably satisfy a prerequisite for Martial Arts. A character with "Court Etiquette" might satisfy one for Charm.
 
-### Example Core Powers
+### Core Powers
 
 | Name | Prerequisites | Description |
 | --- | --- | --- |
