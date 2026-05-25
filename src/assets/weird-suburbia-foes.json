@@ -1,0 +1,134 @@
+[
+  {
+    "name": "A Rat Swarm",
+    "threat_level": "minor",
+    "primary_damage": ["Stressed"],
+    "secondary_damage": ["Hurt"],
+    "flavour": "*The tunnels have been wrong for a while. The rats were the first sign.*",
+    "description": "Something has changed in the local rat population - size, behaviour, coordination, or all three. They move with unsettling purpose, appear where they shouldn't, and seem drawn to wherever the weird is thickest.",
+    "how_it_threatens": "Primarily Stressed. A rat swarm in the dark, moving as one, is deeply wrong in a way that bypasses reason. Physical danger is real but minor - bites and scratches deal Hurt at rank 1-2. The sight and sound of them is the real threat, dealing 1-2 Stressed damage to anyone who encounters them unprepared.",
+    "what_it_wants": "Unclear. They seem to gather near sources of weird activity, which makes them as much a symptom as a threat. Following a rat swarm has led kids to answers before.",
+    "fighting_it": "A swarm can be dispersed with fire, loud noise, or a good Tinker solution. It cannot be defeated conventionally - there are always more. Disperse them; don't try to win.",
+    "running_away": "Always an option. They do not pursue far beyond their territory.",
+    "stats": {
+      "threat": "d6",
+      "evasion": null,
+      "evasion_note": "dispersed by area effects",
+      "hurt_damage": "d2 Piercing (bites)",
+      "stressed_damage": "1-2 (presence, wrongness)",
+      "limit": null,
+      "limit_note": "dispersed at GM discretion"
+    }
+  },
+  {
+    "name": "The Upperclassman Bully",
+    "threat_level": "minor/mid",
+    "primary_damage": ["Social", "Hurt"],
+    "secondary_damage": [],
+    "flavour": "*He's seventeen and he's decided this is his street, his woods, his town. You are trespassing.*",
+    "description": "Not every threat is supernatural. The Upperclassman Bully is older, bigger, socially entrenched, and specifically interested in making your life difficult. He may be protecting something knowingly or unknowingly. He may just enjoy it. Either way he is a genuine obstacle.",
+    "how_it_threatens": "Social and Hurt. He deals Social damage through humiliation, intimidation and exposure - being seen with him, being reported by him, being made to look small in front of others. Physical confrontation is possible but unwise; he is bigger and more experienced. There is nothing Stressed about him whatsoever, which in this company is almost reassuring.",
+    "what_it_wants": "Territory, status, or something specific the kids have stumbled onto. Occasionally he is frightened of something himself and covering it badly. A high Suss roll might reveal which.",
+    "fighting_it": "Possible for Teens, unwise for Kids. He has real Fighting skill and isn't afraid to use it. Social approaches - Clique, Fast Talk, finding leverage - are more effective and carry less risk of Hurt damage.",
+    "running_away": "He won't chase far - too much dignity to lose. Outrunning him on bikes is trivially easy if you get a head start.",
+    "stats": {
+      "strength": "d8",
+      "spirit": "d6",
+      "evasion": 4,
+      "fighting": 3,
+      "intimidation": 2,
+      "hurt_damage": "d4 Bludgeoning",
+      "social_damage": "1-2 (humiliation, exposure)",
+      "limit": 14
+    }
+  },
+  {
+    "name": "The Wraith",
+    "threat_level": "minor/mid",
+    "primary_damage": ["Stressed"],
+    "secondary_damage": ["Hurt"],
+    "flavour": "*You see it at the edge of your torch beam. When you swing the light toward it, there is nothing. When you swing it away, it is closer.*",
+    "description": "The Wraith is a presence in dark places - basements, forests at night, the space under a bridge, the end of an unlit corridor. It does not speak. It does not explain itself. It is simply there, and then closer, and the dark feels different when it is in it.",
+    "how_it_threatens": "Almost entirely Stressed. The Wraith deals 1-3 Stressed damage through proximity and presence alone. Characters who see it clearly - really see it - make a Spirit roll against TN 6 or take 2 Stressed damage immediately. It may deal minor Hurt through cold or physical contact at the GM's discretion, but this is rare and should feel like a violation of the rules the Wraith normally operates by.",
+    "what_it_wants": "Unknown. It seems drawn to children specifically, and to places where the weird is active. Whether it is a symptom, a guardian, or something with its own agenda is left for the table to discover.",
+    "fighting_it": "It cannot be harmed conventionally. Light weakens it - a good torch, a floodlight, fire - imposing Disadvantages on its approach and reducing its Stressed damage by 1 rank. Sustained bright light drives it off entirely. It will return when the light fails.",
+    "running_away": "Into the light. Always into the light.",
+    "stats": {
+      "threat": "d8",
+      "evasion": null,
+      "evasion_note": "immune to physical attacks",
+      "stressed_damage": "1-3 (proximity, presence, direct sight)",
+      "weakness": "Light (Disadvantage, reduced damage, dispersed by sustained brightness)",
+      "limit": null,
+      "limit_note": "driven off by light, returns in darkness"
+    }
+  },
+  {
+    "name": "A Walker",
+    "threat_level": "mid",
+    "primary_damage": ["Hurt"],
+    "secondary_damage": ["Stressed"],
+    "flavour": "*It was a maintenance robot once. The logo is still visible under the rust. Whatever it was maintaining, it stopped a long time ago.*",
+    "description": "A Walker is a humanoid or semi-humanoid machine from a facility, laboratory, or infrastructure project that has gone badly wrong. Its original purpose is irrelevant now. Its current behaviour is methodical, tireless, and threatening in a way that feels almost bureaucratic - it is not angry, it is not cruel, it is simply continuing.",
+    "how_it_threatens": "Primarily Hurt, with significant Stressed secondary. Physical damage from a Walker is serious - it is strong, it does not tire, and it does not stop. The Stressed damage comes from what it represents: something made by adults, something that should be under control, that is not under control and cannot be reasoned with.",
+    "what_it_wants": "To complete its last directive, however corrupted. Understanding what that directive was is often the key to stopping it.",
+    "fighting_it": "Possible but costly. A Walker has significant Armour Value from its chassis and a high Limit. Direct combat is a last resort. Its joints, sensors, and power source are weak points - a successful Weak Spot Power or Logic roll identifies the best angle of attack. Tinker solutions can disable, trap, or redirect it. Understanding its directive may allow characters to satisfy or confuse it without fighting at all.",
+    "running_away": "A Walker is slow. It can always be outrun - for now. It will still be there when you come back, still completing its directive, still moving.",
+    "stats": {
+      "strength": "d10",
+      "agility": "d4",
+      "evasion": 2,
+      "armour_value": 3,
+      "fighting": 2,
+      "hurt_damage": "d8 Bludgeoning",
+      "stressed_damage": "1 (wrongness of a thing that won't stop)",
+      "limit": 18
+    }
+  },
+  {
+    "name": "The Crossing Guard",
+    "threat_level": "mid/major",
+    "primary_damage": ["Social", "Stressed", "Hurt"],
+    "secondary_damage": [],
+    "flavour": "*She has been standing at that corner every morning for thirty years. She knows your name. She knows your parents' names. She asks about your grandmother, who died before you were born.*",
+    "description": "The Crossing Guard looks like a person. Moves like a person. Has been a fixture of the neighbourhood longer than anyone can clearly remember. Something is deeply, quietly wrong - in the way she tracks movement, in the things she knows, in the moments when her smile doesn't quite match what her eyes are doing.",
+    "how_it_threatens": "All three damage types, making her uniquely dangerous. Social damage through her community integration - she knows everyone, is trusted by everyone, and anything she says to adults will be believed without question. Stressed damage through the slow accumulating wrongness of her, the uncanny valley of a human face that isn't quite right. Hurt damage only if cornered or exposed - she is capable of direct action but prefers not to be.",
+    "what_it_wants": "Information. Specifically, she wants to know what the kids know. She is a node in something larger - an observer, a collector, a relay. She does not want to harm them if she can avoid it. She wants them to go home, forget what they saw, and let her continue.",
+    "fighting_it": "Inadvisable in public - she will simply be believed over you. In private, she is more vulnerable than she appears, but exposing what she is requires proof, witnesses, or a confrontation the kids can control. The real fight is social, not physical.",
+    "running_away": "She will let you go. She knows where you live.",
+    "stats": {
+      "strength": "d6",
+      "agility": "d6",
+      "perception": "d10",
+      "intelligence": "d8",
+      "spirit": "d8",
+      "evasion": 3,
+      "suss": 4,
+      "deception": 4,
+      "persuasion": 3,
+      "hurt_damage": "d4",
+      "stressed_damage": "1-2 (uncanny wrongness)",
+      "social_damage": "1-3 (community standing, adult trust)",
+      "limit": 14
+    }
+  },
+  {
+    "name": "The Bleed",
+    "threat_level": "major",
+    "primary_damage": ["Stressed"],
+    "secondary_damage": [],
+    "flavour": "*The TV turned on by itself at 3am. The channel it showed doesn't exist. You watched it for four minutes before you realised you'd been standing there for two hours.*",
+    "description": "The Bleed is not a creature. It is a condition - a place or object or moment where the weird has worn through the mundane entirely. Reality becomes unreliable. Perceptions cannot be trusted. Time behaves incorrectly. It manifests differently each time: a stretch of road where the same house appears three times, a frequency on a radio that plays tomorrow's news, a mirror that shows a room you've never been in.",
+    "how_it_threatens": "Exclusively Stressed, but heavily. Characters within a Bleed make a Spirit roll against TN 6 each Round or take 1-2 Stressed damage. The Bleed does not chase, does not choose, does not intend. It simply is, and proximity to it is the threat. A character Knocked Out by Stressed damage within a Bleed does not simply collapse - the GM should work with the player to determine what they experience, and what they bring back with them.",
+    "what_it_wants": "Nothing. The Bleed has no agenda. It is a wound, not a predator. Understanding what caused it - what event, what experiment, what accumulation of the weird - is the only path to closing it.",
+    "fighting_it": "It cannot be fought. It can be understood, contained, or closed. Research, investigation, and the right knowledge are the tools. A character with Psychic Touch near a Bleed gets more than they bargained for - Advantage on the roll, but take 1 Stressed damage regardless of the result.",
+    "running_away": "Leave the area. The Stressed damage stops. The dreams may not.",
+    "stats": {
+      "threat": "d8",
+      "stressed_damage": "1-2 per Round (proximity)",
+      "weakness": "Understanding its origin; specific closure conditions set by the GM per instance",
+      "limit": null,
+      "limit_note": "closed, not defeated"
+    }
+  }
+]
