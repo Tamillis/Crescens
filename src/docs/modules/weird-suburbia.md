@@ -1,47 +1,65 @@
 # Weird Suburbia
 
+Weird Suburbia is a module aimed at recreating that feel of 80s/90s kids and teens investigating a horror in the more intimate scale of their small-town or suburb: one where the adults just don't seem to be helping. It hopes to allow for games like Stranger Things, Tales from the Loop or even the Goonies.
+
+## Character Creation
+As normal pick an 'Ancestry' and 'Background', with Weird Suburbia replacing these terms with 'Age' and 'Stereotype' respectively.
+
+As before your 'Role' you determine yourself, choosing 2 Powers as appropriate, with the added option of Weird Powers (see below).
+
 ## Age
-In Weird Suburbia, Age replaces Ancestry. Before character creation, the group should discuss this together with their GM:
+Before character creation, the group should discuss this together with their GM:
 
-> Will Adults be part of this adventure, or barriers to it?
+> Will all the Adults be part of this adventure, or barriers to it?
 
-Most Weird Suburbia games work best with a group of Kids, or a group of Teens, or a mixed group of both. Adults as player characters are possible but change the tone considerably - they belong in a game where the mystery has already pulled grown-ups in whether they wanted it to or not.
+Most Weird Suburbia games work best with a group of Kids or Teens. Adults as player characters are possible but change the tone of the game, so make sure everyone is on-board with that first.
 
 ### Kid
-Roughly 8-12. Small, overlooked, and surprisingly hard to break.
-Kids roll Statistics as normal but may not start above d6 in any Stat, and may not exceed d8 through play. What they lack in capability they make up for in fortune: once per session, a Kid may reroll any single die and take the better result. The world is not quite done looking out for them yet.
-Adults rarely take Kids seriously. This is usually a problem. Occasionally it is exactly what is needed.
+Roughly 9-13 years old. Small, overlooked, and surprisingly hard to break. Adults and Teens rarely take Kids seriously. This is usually a problem, but occasionally it is exactly what is needed.
+
+**Young** - Kids roll Statistics differently to normal: a 1-2 is a d4 and 3-6 is a d6, and no Stat can exceed d8 through play. Additionally, they pick Skills with a total of 6 ranks, and a skill cannot start above rank 2. Children are underdeveloped.
+
+**Fortune** - What they lack in capability they make up for in fortune: any initial die roll of 1 is re-rolled, keeping the new result.
 
 ### Teen
-Roughly 13-17. Almost there. Not quite.
-Teens use standard character creation with no Stat restrictions. They are physically capable but caught between worlds - not small enough to be invisible, not old enough to be believed. Teens gain no fortune reroll, but start with one additional Skill rank to spend freely.
+Roughly 14-18 years old, they're busy learning their place in the world and establishing their own hierarchy, trends and social connections.
+
+Physically, teens are like Adults, and use standard character creation with no Stat restrictions. They are physically capable but caught between worlds - not small enough to be invisible, not old enough to be believed. 
+
+**Angst** - Teens are caught between two worlds in a body developing faster than their mind, and have to take it out on the world. They can channel their angst to relieve d6 Stress damage or d6 Social damage per Rest.
 
 ### Adult
-Only if your GM has said yes.
-Adults use standard character creation. They have no fortune reroll and no bonus skill rank. What they have is access: to cars, to money, to being listened to. They do not get a Weird Power slot at character creation - the world stopped whispering to them some time ago. They may train into one through play, if the fiction earns it.
+Adults use standard character creation. They're wise to the world (or think they are), and have been around enough to have learned a thing or two. They also have access: to cars, to money, to the respect of society. 
+
+**Normal** - Adults cannot take a Weird Power at character creation - the world stopped whispering to them some time ago.
+
+**Skilled** - Adults start the game with a Skill Increase
 
 ## Suburban Skills
 
 Stats are unchanged.
 
-Skills
+Skills have been reframed for the Weird Suburban setting and a more child-focused lens, with one new one: Clique.
 
-Animals
-Art
-Convince
-Tinker
-Fast Talk
-First Aid
-Clique
-Suss
-Fighting
-Knowledge (School Subject / Local / Weird)
-Logic
-Riding
-Search
-Sneaking
-Subterfuge
-Wilderness
+Additionally, the lowered emphasis on combat means Martial Arts, Shooting and Weaponry have been rolled into a singular "Fighting" skill. Speak with your GM if you wish to make fighting a larger part of the game, and to keep these distinctions.
+
+- **Animals** - was Animal Handling
+- **Art**
+- **Convince** - was Charm
+- **Tinker** - was Crafting
+- **Lie** - was Deception
+- **First Aid**
+- **Clique** - a social skill, the skill at navigating the many subgroups that kids and teens create
+- **Suss** - was Insight
+- **Fighting** - was Martial Arts, Shooting and Weaponry
+- **Knowledge** - knowledge is better reframed as school subjects (i.e. Knowledge - Chemistry), 'Local' and 'Weird'
+- **Logic**
+- **Persuade**
+- **Riding** - was piloting, refocused around bicycles
+- **Search**
+- **Sneaking** - was Stealth
+- **Subterfuge**
+- **Wilderness**
 
 ## Stereotypes
 Backgrounds are replaced by archetypical stereotypes, that come also with baggage suggestions.
@@ -65,9 +83,11 @@ Backgrounds are replaced by archetypical stereotypes, that come also with baggag
 Characters in Weird Suburbia are hurt in three ways: physically, psychologically, and socially. All three use the same Injury system as Crescens Core - a descriptor and a rank, with ranks subtracting from relevant rolls and accumulating toward the Knock Out Limit.
 What distinguishes them is not mechanics but fiction, and how they are recovered. When marking an Injury on your sheet, note it in a different colour depending on its nature:
 
-Hurt - physical damage. Scraped knees, a twisted ankle, a black eye, exhaustion from running all night.
-Stressed - psychological damage. The weight of seeing something that shouldn't exist, fear that doesn't go away, dread that follows you into daylight.
-Social - relational and authority damage. Getting caught, being grounded, a friendship fracturing, an adult who is now paying attention to you.
+**Hurt** - physical damage. Scraped knees, a twisted ankle, a black eye, exhaustion from running all night.
+
+**Stressed** - psychological damage. The weight of seeing something that shouldn't exist, fear that doesn't go away, dread that follows you into daylight.
+
+**Social** - relational and authority damage. Getting caught, being grounded, a friendship fracturing, an adult who is now paying attention to you.
 
 The colour is never ambiguous - it is always obvious from what caused it. If a Foe inflicts a specific type of damage, it will say so.
 All three colours fill the same bar. A character who is two ranks Hurt and three ranks Stressed is five ranks toward their Knock Out Limit regardless of the mix. A kid ground down by fear and social pressure might go down from a physical hit that would otherwise barely register.

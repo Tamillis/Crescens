@@ -4,8 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "dev-api": "node ./api.js",
+    "dev": "concurrently vite \"node ./api.js\"",
     "build": "vite build",
     "preview": "vite preview"
   },
@@ -17,6 +16,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^6.0.6",
+    "concurrently": "^9.2.1",
     "cors": "^2.8.6",
     "express": "^5.2.1",
     "unplugin-vue-markdown": "^30.0.0",

@@ -7,7 +7,7 @@ const app = express()
 app.use(express.json())
 
 if (process.env.NODE_ENV !== 'production') {
-  app.use(cors({ origin: 'http://localhost:5173' }))
+    app.use(cors({ origin: 'http://localhost:5173' }))
 }
 
 const ROOT_DOCS_PATH = path.resolve(process.cwd(), './src/docs')
@@ -52,14 +52,16 @@ app.post('/api/save', (req, res) => {
         return res.status(403).send('Access Denied.')
     }
 
-    console.log("Saving file to ", targetFilePath)
     fs.writeFile(targetFilePath, content, 'utf8', (err) => {
         if (err) {
             console.error(err)
             return res.status(500).send('Error writing file to disk.')
         }
-        res.send('File saved successfully.')
+        console.log("File saved successfully");
+        res.send('File saved successfully.');
     })
 })
+
+app.get("/api/debug", (req, res) => res.json({ message: "alive" }));
 
 app.listen(3000, () => console.log('Dev server running on port 3000'));
